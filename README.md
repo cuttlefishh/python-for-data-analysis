@@ -1,1 +1,207 @@
-# Python for Data AnalysisThis course focuses on analyzing data of all types using the Python programming language.  No programming experience is necessary. We start with an introduction (or refresher) to the command line. We then cover the fundamentals of Python and its data types, followed by the data analysis packages Numpy and Pandas, and plotting packages Matplotlib and Seaborn, plus statistics and interactive visualization.Jupyter (IPython) notebooks are used throughout. Conda is used for package management and virtual environments. All notebooks are in Python 3 unless otherwise noted.## Instructor[Luke Thompson, Ph.D.](mailto:lukethompson@gmail.com)<br>Lecturer, Scripps Institution of Oceanography<br>Research Associate, National Oceanographic and Atmospheric Administration<br>## YouTube ChannelAll lectures are available from the 2016 course on my YouTube channel [Doc Thompson Data Science](https://www.youtube.com/channel/UCVZrIrWtcvTzYlrNx7RcDyg). ## LessonsClick on a lesson number below to access the corresponding notebook in the `lessons` directory. Any data files required by these notebooks are provided in the `data` directory.Lesson	|	Title	|	Readings	|	Topics	|	Assignment-----	|	-----	|	-----	|	-----	|	-----0	|	Introductions and Syllabus	|	Obtain _Learn Python The Hard Way_ (Shaw), _Python for Data Analysis_ (McKinney), and _Learning Python_ (Lutz)	|	Introductions and overview of course	|	[1](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson01.md)	|	Command Line and Bash	|	Shaw: The Hard Way Is Easier, Exercise 0, Appendix A: Command Line Crash Course	|	A full introduction to using the command line, the bash shell, and text editors	|	Assignment for Lesson 1[2](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson02.ipynb)	|	Conda, IPython, and Jupyter Notebooks	|	Install: [Miniconda 3](http://conda.pydata.org/miniconda.html)	|	Conda tutorial including conda environments, python packages, and PIP, Python and IPython in the command line, Jupyter notebook tutorial and Python crash course	|	Assignment for Lesson 2[3](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson03.ipynb)	|	Python Basics, Strings, Printing	|	Shaw: Exercises 1-10; Lutz: Ch 1-7	|	Python scripts, error messages, printing strings and variables, strings and string operations, numbers and mathematical expressions, getting help with commands and Ipython	|	Homework 1[4](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson04.ipynb)	|	Taking Input, Reading and Writing Files, Functions	|	Shaw: Exercises 11-26; Lutz: Ch 9, 14-17	|	Taking input, reading files, writing files, functions	|	Homework 2[5](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson05.ipynb)	|	Logic, Loops, Lists, Dictionaries, and Tuples	|	Shaw: Exercises 27-39; Lutz: Ch 8-13	|	Logic and loops, lists and list comprehension, tuples, dictionaries, other types	|	Homework 3[6](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson06.ipynb)	|	Python and IPython Review	|	McKinney: Appendix: Python Language Essentials, Ch 3	|	Review of Python commands, IPython review -- enhanced interactive Python shells with support for data visualization, distributed and parallel computation and a browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media	|	[7](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson07.ipynb)	|	Regular Expressions	|	Grep tutorials: [Drew's Grep Tutorial](http://www.uccs.edu/~ahitchco/grep/), [Linux Grep Tutorial](http://ryanstutorials.net/linuxtutorial/grep.php); [Python Regular Expressions Tutorial](https://docs.python.org/2/howto/regex.html)	|	Regular expression syntax, Command-line tools: `grep`, `sed`, `awk`, `perl -e`, Python examples: built-in and `re` module	|	[8](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson08.ipynb)	|	Numpy, Pandas and Matplotlib Crashcourse	|	[MatPlotLib Cheatsheet](https://github.com/juliangaal/python-cheat-sheet/blob/master/Matplotlib/Matplotlib.md)	|	Numpy overview, Pandas overview, Matplotlib overview	|	Homework 4[9](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson09.ipynb)	|	Pandas Basics	|	McKinney: Ch 1-2, 4 (Introduction to Scientific Computing with NumPy and Pandas)	|	`Series`, `DataFrame`, `index`, `columns`, `dtypes`, `info`, `describe`, `read_csv`, `head`, `tail`, `loc`, `iloc`, `ix`, `to_datetime`	|	[10](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson10.ipynb)	|	Pandas Advanced	|	McKinney: Ch 5-7 (Data Analysis with Pandas); [Pandas Documentation: Indexing and Selecting Data](http://pandas.pydata.org/pandas-docs/stable/indexing.html)	|	`concat`, `append`, `merge`, `join`, `set_option`, `stack`, `unstack`, `transpose`, dot-notation, `values`, `apply`, `lambda`, `sort_index`, `sort_values`, `to_csv`, `read_csv`, `isnull`	|	[11](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson11.ipynb)	|	Plotting with Matplotlib	|	McKinney: Ch 8; J.R. Johansson: [Matplotlib 2D and 3D plotting in Python](http://github.com/jrjohansson/scientific-python-lectures)	|	Matplotlib tutorial from J.R. Johansson	|	[12](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson12.ipynb)	|	Plotting with Seaborn	|	[Seaborn Tutorial](http://seaborn.pydata.org/tutorial.html)	|	Seaborn tutorial from Michael Waskom	|	Homework 5[13](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson13.ipynb)	|	Pandas Time Series	|	McKinney: Ch 10, [Pandas Documentation: Time Series and Date](http://pandas.pydata.org/pandas-docs/stable/timeseries.html)	|	Time series data in Pandas	|	[14](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson14.ipynb)	|	Pandas Group Operations	|	McKinney: Ch 9	|	`groupby`, `melt`, `pivot`, `inplace=True`, `reindex`	|	[15](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson15.ipynb)	|	Statistics Packages	|	(no readings)	|	Statitics capabilities of Pandas, Numpy, Scipy, and Scikit-bio	|	[16](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson16.ipynb)	|	Interactive Visualization with Bokeh	|	[Bokeh User Guide](http://bokeh.pydata.org/en/latest/docs/user_guide.html)	|	Quickstart guide to making interactive HTML and notebook plots with Bokeh	|	
+# SIOC 209: Python for Data Analysis
+
+## Instructor
+
+* Luke Thompson, Ph.D.
+* Lecturer at SIO; Research Associate at NOAA
+* Office hours by appointment
+* Email: luke@ucsd.edu
+
+## Meetings
+
+* Time: Tu/Th 9:00-10:20
+* Room: Sea Cave, first floor of Eckart Building, Code: ____
+* GitHub repository: <https://github.com/cuttlefishh/python-for-data-analysis>
+* YouTube channel: <https://www.youtube.com/channel/UCVZrIrWtcvTzYlrNx7RcDyg>
+
+## Course Materials
+
+### Textbooks
+
+* [_Learn Python The Hard Way_](http://learnpythonthehardway.org) by Zed Shaw[^lpthw] -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course (Weeks 1-4)
+* [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz[^pythonbook] --  Optional; more traditional introduction to Python as a computer language (Weeks 1-4)
+* [_Python For Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney[^pandasbook] -- Manual focused on Pandas, the popular Python package for data analysis, by its creator (Weeks 5-10)
+
+### Command Line Resources
+
+* [Git for Windows](https://git-for-windows.github.io) -- BASH emulator and Git software for Windows
+* [Learning the Shell](http://www.linuxcommand.org/learning_the_shell.php) -- Great intro to the Unix shell
+* [Unix Tutorial](http://evomics.org/unix-tutorial-2015/) by Julian Catchen -- From [Evomics 2015](http://evomics.org/workshops/workshop-on-genomics/2015-workshop-on-genomics-cesky-krumlov/) workshop in Czech Republic
+* [_Command Line Crash Course_](http://cli.learncodethehardway.org/book/) by Zed Shaw -- Duplicate content of Appendix A of Shaw's _LPTHW_
+* [Learn the Command Line](https://www.codecademy.com/courses/learn-the-command-line) -- Code Academy
+
+### Python Resources
+
+* [MIT OpenCourseWare](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/Syllabus/)
+* [SciPy Lectures](https://scipy-lectures.github.io)
+* [MatPlotLib Cheatsheet](https://github.com/juliangaal/python-cheat-sheet/blob/master/Matplotlib/Matplotlib.md)
+
+### IPython Resources from Cyrille Rossant
+
+* [IPython Interactive Computing and Visualization Cookbook](http://www.amazon.com/IPython-Interactive-Computing-Visualization-Cookbook/dp/1783284811)
+* [Learning IPython for Interactive Computing and Data Visualization](https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization) -- [GitHub repo](https://github.com/rossant/ipython-minibook)
+
+### Data Analysis Resources
+
+* [10-minute Tour of Pandas](https://vimeo.com/59324550) by Wes McKinney -- Basic video tour
+* [R vs. Python for Data Analysis](http://www.r-bloggers.com/choosing-r-or-python-for-data-analysis-an-infographic/) -- Fun cartoon to abate or fuel your biases
+* [_Python Scripting for Computational Science_](http://www.springer.com/us/book/9783540739159) by H. P. Langtangen -- Deeper and more mathematical treatment
+* [An Introduction To Applied Bioinformatics](http://caporasolab.us/An-Introduction-To-Applied-Bioinformatics/) by Greg Caporaso
+* [A Dramatic Tour through Python's Data Visualization Landscape](https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/)
+
+[^lpthw]: Book (.pdf) and video (.mp4) no-DRM access for $29.95.
+[^pythonbook]: O'Reilly Media titles are free to UCSD with [Safari Books Online](http://proquest.safaribooksonline.com/?uicode=ucsd). A [PDF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDEQFjAD&url=https%3A%2F%2Fps07grupe3.googlecode.com%2Ffiles%2FLearning%2520Python%2520%25283th%2520Edition%2529%2520-%2520Ascher%2C%2520Lutz%2520%2528O%2527Reilly%2C%25202008%2529.pdf&ei=-p5wVcOIIsj2oAT6tICIAQ&usg=AFQjCNGNvC0eUxmyEvwMT0DIaY4-gZVBXg&sig2=OTPvJh_Ryxt0F6HKVTRc8Q&bvm=bv.95039771,d.cGU) of this title is also available.
+[^pandasbook]: O'Reilly Media titles are free to UCSD with [Safari Books Online](http://proquest.safaribooksonline.com/?uicode=ucsd). A [PDF](http://www.cin.ufpe.br/~embat/Python%20for%20Data%20Analysis.pdf) of the first edition of this title is also available.
+
+## Course Philosophy
+
+1. Just like anything else, you learn Python by doing. With a few exceptions, you're not going to break your computer by trying new commands. So just try it and see what happens. Print output of commands. Print values of variables. Kick the thing until it works.
+2. When you don't know how to do something, google it. You'll be amazed by the solutions you'll find to do _thing x_ if you google "python thing x".
+3. Learn keyboard shortcuts, as many as you can. Tab-complete in the shell and IPython/Jupyter!
+4. Remember Zed's sage wisdom:
+	* Practice every day.
+	* Don't over-do it. Slow and steady wins the race.
+	* It's alright to be totally lost at first.
+	* When you get stuck, get more information.
+	* Try to solve it yourself first.
+
+## Schedule Overview
+
+_Schedule is subject to change._
+
+We will start with an introduction to the command line in Week 1, so that everyone is familiar with basic Unix commands. 
+
+Weeks 2-4 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python The Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. 
+
+Also in Weeks 2-4, we will learn to use IPython and IPython Notebooks (also called Jupyter), a much richer Python experience than the Unix command line or Python interpreter. 
+
+In Weeks 5-10, we'll work through McKinney's _Python for Data Analysis_, which is all about analyzing data, doing statistics, and making pretty plots (you may find that Python can emulate much of the functionality of R and MATLAB).
+
+## Detailed Schedule
+
+* Course material is available as .md or .ipynb files by clicking on the lesson number below.
+* In addition to doing the readings, please follow along writing code (this is integral to the Shaw readings), and do any Study Drills (Shaw) and Chapter Quizzes (Lutz).
+
+Lesson	|	Title	|	Readings	|	Topics	|	Assignment
+-----	|	-----	|	-----	|	-----	|	-----
+[1](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson01.md)	|	Overview	|	None	|	Introductions and overview of course	|	Pre-course survey; Acquire texts
+[2](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson02.md)	|	Command Line Part I	|	Shaw: The Hard Way Is Easier, Exercise 0, Appendix A: Command Line Crash Course	|	Introduction to the command line, the bash shell, and text editors	|	Assignment 1: Basic Shell Commands
+[3](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson03.md)	|	Command Line Part II	|	--	|	Advanced commands in the bash shell	|	--
+[4](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson04.ipynb)	|	Conda, IPython, and Jupyter Notebooks	|	Install: [Miniconda 3](http://conda.pydata.org/miniconda.html)	|	Conda tutorial including Conda environments, Python packages, and PIP, Python and IPython in the command line, Jupyter notebook tutorial and Python crash course	|	Assignment 2: Bash, Conda, IPython, and Jupyter
+[5](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson05.ipynb)	|	Python Basics, Strings, Printing	|	Shaw: Exercises 1-10; Lutz: Ch 1-7	|	Python scripts, error messages, printing strings and variables, strings and string operations, numbers and mathematical expressions, getting help with commands and Ipython	|	--
+[6](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson06.ipynb)	|	Taking Input, Reading and Writing Files, Functions	|	Shaw: Exercises 11-26; Lutz: Ch 9, 14-17	|	Taking input, reading files, writing files, functions	|	Assignment 3: Python Fundamentals I
+[7](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson07.ipynb)	|	Logic, Loops, Lists, Dictionaries, and Tuples	|	Shaw: Exercises 27-39; Lutz: Ch 8-13	|	Logic and loops, lists and list comprehension, tuples, dictionaries, other types	|	--
+[8](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson08.ipynb)	|	Python and IPython Review	|	McKinney: Appendix: Python Language Essentials, Ch 3	|	Review of Python commands, IPython review -- enhanced interactive Python shells with support for data visualization, distributed and parallel computation and a browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media	|	Assignment 4: Python Fundamentals II
+[9](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson09.ipynb)	|	Regular Expressions	|	Grep tutorials: [Drew's Grep Tutorial](http://www.uccs.edu/~ahitchco/grep/), [Linux Grep Tutorial](http://ryanstutorials.net/linuxtutorial/grep.php); [Python Regular Expressions Tutorial](https://docs.python.org/2/howto/regex.html)	|	Regular expression syntax, Command-line tools: `grep`, `sed`, `awk`, `perl -e`, Python examples: built-in and `re` module	|	--
+[10](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson10.ipynb)	|	Numpy, Pandas and Matplotlib Crashcourse	|	--	|	Numpy overview, Pandas overview, Matplotlib overview	|	Assignment 5: Regular Expressions
+[11](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson11.ipynb)	|	Pandas Basics	|	McKinney: Ch 1-2, 4 (Introduction to Scientific Computing with NumPy and Pandas)	|	`Series`, `DataFrame`, `index`, `columns`, `dtypes`, `info`, `describe`, `read_csv`, `head`, `tail`, `loc`, `iloc`, `ix`, `to_datetime`	|	--
+[12](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson12.ipynb)	|	Pandas Advanced	|	McKinney: Ch 5-7 (Data Analysis with Pandas); [Pandas Documentation: Indexing and Selecting Data](http://pandas.pydata.org/pandas-docs/stable/indexing.html)	|	`concat`, `append`, `merge`, `join`, `set_option`, `stack`, `unstack`, `transpose`, dot-notation, `values`, `apply`, `lambda`, `sort_index`, `sort_values`, `to_csv`, `read_csv`, `isnull`	|	Assignment 6: Pandas Fundamentals
+[13](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson13.ipynb)	|	Plotting with Matplotlib	|	McKinney: Ch 8; J.R. Johansson: [Matplotlib 2D and 3D plotting in Python](http://github.com/jrjohansson/scientific-python-lectures)	|	Matplotlib tutorial from J.R. Johansson	|	--
+[14](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson14.ipynb)	|	Plotting with Seaborn	|	[Seaborn Tutorial](http://seaborn.pydata.org/tutorial.html)	|	Seaborn tutorial from Michael Waskom	|	Assignment 7: Matplotlib and Seaborn
+[15](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson15.ipynb)	|	Pandas Time Series	|	McKinney: Ch 10, [Pandas Documentation: Time Series and Date](http://pandas.pydata.org/pandas-docs/stable/timeseries.html)	|	Time series data in Pandas	|	--
+[16](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson16.ipynb)	|	Pandas Group Operations	|	McKinney: Ch 9	|	`groupby`, `melt`, `pivot`, `inplace=True`, `reindex`	|	Assignment 8: Pandas Advanced
+[17](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson17.ipynb)	|	Statistics Packages	|	--	|	Statitics capabilities of Pandas, Numpy, Scipy, and Scikit-bio	|	--
+[18](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson18.ipynb)	|	Interactive Visualization with Bokeh	|	[Bokeh User Guide](http://bokeh.pydata.org/en/latest/docs/user_guide.html)	|	Quickstart guide to making interactive HTML and notebook plots with Bokeh	|	Assignment 9: Statistics and Interactive Visualization
+[19](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson19.md)	|	Modules and Classes	|	Lutz: TBA	|	Packaging your code so you and others can use it again	|	--
+[20](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson20.md)	|	Git and GitHub	|	--	|	Sharing your code in a public GitHub repository	|	Final Project
+
+## Assignments
+
+### Homeworks
+
+Programming assignments: Weekly take-home assignments will be provided when the quarter begins. These exercises will focus on analysis and visualization of scientific data.
+
+### Final Project
+
+* Choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis.
+* Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas.
+* You should use one or several application-specific packages, such as:
+	- Data analysis and plotting: pandas, matplotlib, Seaborn
+	- Bioinformatics: scikit-bio, Biopython
+	- Climate science: CDMS (UV-CDAT), Iris
+* You should use at least 3 user-defined functions (optional: user-defined modules and classes).
+
+Note: There are no midterm or final exams.
+
+<!--
+
+Packages
+-----
+
+Data analysis
+
+* NumPy -- the fundamental package for scientific computing with Python
+* Pandas -- data structures and data analysis tools; enables you to carry out your entire data analysis workflow in Python without having to switch to a more domain-specific language like R; Series and DataFrame are based on Python dictionaries and NumPy arrays
+* MatPlotLib -- MATLAB clone for Python
+* [bokeh](http://bokeh.pydata.org/en/latest/) -- interactive data visualizations for the web
+* [mpld3](http://mpld3.github.io) -- interactive data visualizations for the web
+* [seaborn](http://stanford.edu/~mwaskom/software/seaborn/index.html) -- visualization for MatPlotLib
+
+Application-specific
+
+* Scikit-Bio -- underlying codebase for QIIME, replacement for PyCogent
+* Biopython -- has some useful code, but the Knight Lab hates it
+* QIIME -- microbiome and statistical analysis package
+* Others: math, collections, operator, future, csv
+* Sympy -- symbolic mathematics
+* Statsmodels -- to explore data, estimate statistical models, and perform statistical tests
+* Scikit-learn -- tools for data mining and data analysis (including machine learning)
+* PyQt -- Python bindings for the Qt cross-platform graphical user interface toolkit (or the equivalent Pyside)
+* Spyder -- interactive development environment with advanced editing, interactive testing, debugging and introspection features
+
+
+Glossary
+-----
+
+**object** -- Pretty much everything in Python is an object: numbers, strings, data structures, functions, classes, modules. Every object exists in its own "box" called a _Python object_.
+
+**type** -- Each object has an associated type (e.g. string or function) and internal data. Entering `type(X)` will give the type of `X`.
+
+**variable** -- Name for object within a particular namespace. The type information and internal data (value) of the object is stored in the object itself.
+
+**attributes** -- Other Python objects stored inside an object. For example, if you have an object stored as variable `x`, then the anything after the dot in `x._____` is an attribute.
+
+**methods** -- A common type of attribute, methods are functions attached to an object with access to the object's internal data. They always contain parentheses afterward, with or without arguments. For example, if you set `x = 'abc'` then `x.upper()` will return `'ABC'`.
+
+**function** 
+
+**module** -- A module is any Python file without the `.py` extension.
+
+**class** -- A new type of Python object that you create.
+
+**package** -- A package is a directory of modules including an additional `__init__.py` file ("library" is a generic term sometimes used interchangeably with "package").
+
+**booleans** -- TRUE, FALSE
+
+**control structures** -- if, then, else, while, with, break, pass, try
+
+
+From Corey (integrate or separate)
+-----
+
+[Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/html/index.html)
+
+[Google's Python Exercises](https://developers.google.com/edu/python/) - I would assign the exercises for lists and strings.  
+
+
+Survey of Tools for Data Science and Visualization:
+
+* [Apache Mahout](https://mahout.apache.org/)
+* [Apache Pig](https://pig.apache.org/)
+* GraphViz / [Gephi](http://gephi.github.io/) / [d3.js](http://d3js.org/)
+* Command-line tools: grep, sed, awk, uniq, curl, etc.
+* Python with libraries. (SciPy, NumPy, PANDAS, matplotlib, networkx)
+* [Natural Language Toolkit](http://www.nltk.org/)
+
+
+Potential exercises:
+
+* [Scraping Data] Have students download data from Twitter, Facebook, Yelp, Common Crawl (web), MovieLens, LastFM (music) or other social data.
+* [Mahout] Collect some works from The Gutenberg Project.  Have students create term-vectors and run cosign similarity to see which works are more similar.
+* [Pig] [Analyze a weblog](http://blogs.ischool.berkeley.edu/i290-abdt-s12/assignments/assignment-1/) - A very real-world example. 
+* [GraphViz / Gephi] [Graph Visualization](http://blogs.ischool.berkeley.edu/i290-abdt-s12/files/2012/10/Assignment3.pdf)  - Make awesome graphs. 
+* [NLTK] - Train an NLTK Name Extraction classifier on a new entity type and (for example, artist names from a music web site). Evaluate results in precision and recall.
+
+-->
+
+
