@@ -21,9 +21,11 @@
 
 ## Textbooks
 
-* [_Learn Python The Hard Way_](http://learnpythonthehardway.org) by Zed Shaw[^lpthw] -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course
-* [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz[^pythonbook] --  Optional; more traditional introduction to Python as a computer language
-* [_Python For Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney[^pandasbook] -- Manual focused on Pandas, the popular Python package for data analysis, by its creator; GitHub page: <https://github.com/wesm/pydata-book>
+* [_Learn Python 3 the Hard Way_](http://learnpythonthehardway.org) by Zed Shaw (Addison-Wesley) -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course.
+* [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz (O'Reilly) --  Optional; more traditional introduction to Python as a computer language.
+* [_Python For Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney (O'Reilly) -- Manual focused on Pandas, the popular Python package for data analysis, by its creator. GitHub page: <https://github.com/wesm/pydata-book>.
+
+Note: O'Reilly Media titles are free to UCSD affiliates with [Safari Books Online](http://proquest.safaribooksonline.com/?uicode=ucsd).
 
 ## Additional Materials
 
@@ -53,10 +55,6 @@
 * [_Python Scripting for Computational Science_](http://www.springer.com/us/book/9783540739159) by H. P. Langtangen -- Deeper and more mathematical treatment
 * [An Introduction To Applied Bioinformatics](http://caporasolab.us/An-Introduction-To-Applied-Bioinformatics/) by Greg Caporaso
 * [A Dramatic Tour through Python's Data Visualization Landscape](https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/)
-
-[^lpthw]: Book (.pdf) and video (.mp4) no-DRM access for $29.95.
-[^pythonbook]: O'Reilly Media titles are free to UCSD with [Safari Books Online](http://proquest.safaribooksonline.com/?uicode=ucsd). A [PDF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDEQFjAD&url=https%3A%2F%2Fps07grupe3.googlecode.com%2Ffiles%2FLearning%2520Python%2520%25283th%2520Edition%2529%2520-%2520Ascher%2C%2520Lutz%2520%2528O%2527Reilly%2C%25202008%2529.pdf&ei=-p5wVcOIIsj2oAT6tICIAQ&usg=AFQjCNGNvC0eUxmyEvwMT0DIaY4-gZVBXg&sig2=OTPvJh_Ryxt0F6HKVTRc8Q&bvm=bv.95039771,d.cGU) of this title is also available.
-[^pandasbook]: O'Reilly Media titles are free to UCSD with [Safari Books Online](http://proquest.safaribooksonline.com/?uicode=ucsd). A [PDF](http://www.cin.ufpe.br/~embat/Python%20for%20Data%20Analysis.pdf) of the first edition of this title is also available.
 
 ## Course Philosophy
 
