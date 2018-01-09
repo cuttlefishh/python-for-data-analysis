@@ -1,0 +1,1 @@
+Note: Several of the IPython notebooks (.ipynb) are still numbered according to the Fall 2016-17 schedule. Each notebook will be updated and renumbered for the Winter 2017-18 schedule as we come to it.

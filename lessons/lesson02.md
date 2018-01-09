@@ -1,4 +1,4 @@
-## Lesson 1 - Command Line and Bash
+## Lesson 02 - Command Line and Bash
 
 * Moving between directories and creating/removing files
 * Working with commands and processes
