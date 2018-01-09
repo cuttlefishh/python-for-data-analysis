@@ -18,9 +18,9 @@
 
 ### Textbooks
 
-* [_Learn Python The Hard Way_](http://learnpythonthehardway.org) by Zed Shaw[^lpthw] -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course (Weeks 1-4)
-* [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz[^pythonbook] --  Optional; more traditional introduction to Python as a computer language (Weeks 1-4)
-* [_Python For Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney[^pandasbook] -- Manual focused on Pandas, the popular Python package for data analysis, by its creator (Weeks 5-10)
+* [_Learn Python The Hard Way_](http://learnpythonthehardway.org) by Zed Shaw[^lpthw] -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course
+* [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz[^pythonbook] --  Optional; more traditional introduction to Python as a computer language
+* [_Python For Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney[^pandasbook] -- Manual focused on Pandas, the popular Python package for data analysis, by its creator; GitHub page: <https://github.com/wesm/pydata-book>
 
 ### Command Line Resources
 
@@ -65,6 +65,28 @@
 	* When you get stuck, get more information.
 	* Try to solve it yourself first.
 
+## Assignments
+
+### Weekly assignments
+
+Weekly take-home assignments will follow the course schedule, reinforcing skills with exercises to analyze and visualize scientific data. Assignments will given out on Thursdays and will be due the following Thursday, using TritonEd.
+
+### Final Project
+
+You will choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas.
+
+Requirements:
+
+* Submit your project as either: a Jupyter notebook (or collection of notebooks), a Python script (or collection of scripts), or a combination of the two.
+* Use at least three (3) application-specific packages, such as:
+	- Data analysis and plotting: pandas, matplotlib, Seaborn
+	- Bioinformatics: scikit-bio, Biopython
+	- Climate science: CDMS (UV-CDAT), Iris
+* Use at least three (3) user-defined functions.
+* Optional: Create user-defined modules and classes for use in your code.
+
+Note: There are no midterm or final exams.
+
 ## Schedule Overview
 
 _Schedule is subject to change._
@@ -84,44 +106,26 @@ In Weeks 5-10, we'll work through McKinney's _Python for Data Analysis_, which i
 
 Lesson	|	Title	|	Readings	|	Topics	|	Assignment
 -----	|	-----	|	-----	|	-----	|	-----
-[1](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson01.md)	|	Overview	|	None	|	Introductions and overview of course	|	Pre-course survey; Acquire texts
-[2](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson02.md)	|	Command Line Part I	|	Shaw: The Hard Way Is Easier, Exercise 0, Appendix A: Command Line Crash Course	|	Introduction to the command line, the bash shell, and text editors	|	Assignment 1: Basic Shell Commands
+[1](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson01.md)	|	Overview	|	--	|	Introductions and overview of course	|	Pre-course survey; Acquire texts
+[2](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson02.md)	|	Command Line Part I	|	Shaw: The Hard Way Is Easier, Ex0, Appendix A: Command Line Crash Course	|	Introduction to the command line, the bash shell, and text editors	|	Assignment 1: Basic Shell Commands
 [3](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson03.md)	|	Command Line Part II	|	--	|	Advanced commands in the bash shell	|	--
 [4](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson04.ipynb)	|	Conda, IPython, and Jupyter Notebooks	|	Install: [Miniconda 3](http://conda.pydata.org/miniconda.html)	|	Conda tutorial including Conda environments, Python packages, and PIP, Python and IPython in the command line, Jupyter notebook tutorial and Python crash course	|	Assignment 2: Bash, Conda, IPython, and Jupyter
-[5](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson05.ipynb)	|	Python Basics, Strings, Printing	|	Shaw: Exercises 1-10; Lutz: Ch 1-7	|	Python scripts, error messages, printing strings and variables, strings and string operations, numbers and mathematical expressions, getting help with commands and Ipython	|	--
-[6](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson06.ipynb)	|	Taking Input, Reading and Writing Files, Functions	|	Shaw: Exercises 11-26; Lutz: Ch 9, 14-17	|	Taking input, reading files, writing files, functions	|	Assignment 3: Python Fundamentals I
-[7](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson07.ipynb)	|	Logic, Loops, Lists, Dictionaries, and Tuples	|	Shaw: Exercises 27-39; Lutz: Ch 8-13	|	Logic and loops, lists and list comprehension, tuples, dictionaries, other types	|	--
-[8](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson08.ipynb)	|	Python and IPython Review	|	McKinney: Appendix: Python Language Essentials, Ch 3	|	Review of Python commands, IPython review -- enhanced interactive Python shells with support for data visualization, distributed and parallel computation and a browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media	|	Assignment 4: Python Fundamentals II
+[5](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson05.ipynb)	|	Python Basics, Strings, Printing	|	Shaw: Ex1-10; Lutz: Ch1-7	|	Python scripts, error messages, printing strings and variables, strings and string operations, numbers and mathematical expressions, getting help with commands and Ipython	|	--
+[6](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson06.ipynb)	|	Taking Input, Reading and Writing Files, Functions	|	Shaw: Ex11-26; Lutz: Ch9,14-17	|	Taking input, reading files, writing files, functions	|	Assignment 3: Python Fundamentals I
+[7](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson07.ipynb)	|	Logic, Loops, Lists, Dictionaries, and Tuples	|	Shaw: Ex27-39; Lutz: Ch8-13	|	Logic and loops, lists and list comprehension, tuples, dictionaries, other types	|	--
+[8](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson08.ipynb)	|	Python Review and IPython	|	McKinney: Ch1-3	|	Review of Python commands, IPython review -- enhanced interactive Python shells with support for data visualization, distributed and parallel computation and a browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media	|	Assignment 4: Python Fundamentals II
 [9](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson09.ipynb)	|	Regular Expressions	|	Grep tutorials: [Drew's Grep Tutorial](http://www.uccs.edu/~ahitchco/grep/), [Linux Grep Tutorial](http://ryanstutorials.net/linuxtutorial/grep.php); [Python Regular Expressions Tutorial](https://docs.python.org/2/howto/regex.html)	|	Regular expression syntax, Command-line tools: `grep`, `sed`, `awk`, `perl -e`, Python examples: built-in and `re` module	|	--
-[10](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson10.ipynb)	|	Numpy, Pandas and Matplotlib Crashcourse	|	--	|	Numpy overview, Pandas overview, Matplotlib overview	|	Assignment 5: Regular Expressions
-[11](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson11.ipynb)	|	Pandas Basics	|	McKinney: Ch 1-2, 4 (Introduction to Scientific Computing with NumPy and Pandas)	|	`Series`, `DataFrame`, `index`, `columns`, `dtypes`, `info`, `describe`, `read_csv`, `head`, `tail`, `loc`, `iloc`, `ix`, `to_datetime`	|	--
-[12](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson12.ipynb)	|	Pandas Advanced	|	McKinney: Ch 5-7 (Data Analysis with Pandas); [Pandas Documentation: Indexing and Selecting Data](http://pandas.pydata.org/pandas-docs/stable/indexing.html)	|	`concat`, `append`, `merge`, `join`, `set_option`, `stack`, `unstack`, `transpose`, dot-notation, `values`, `apply`, `lambda`, `sort_index`, `sort_values`, `to_csv`, `read_csv`, `isnull`	|	Assignment 6: Pandas Fundamentals
-[13](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson13.ipynb)	|	Plotting with Matplotlib	|	McKinney: Ch 8; J.R. Johansson: [Matplotlib 2D and 3D plotting in Python](http://github.com/jrjohansson/scientific-python-lectures)	|	Matplotlib tutorial from J.R. Johansson	|	--
+[10](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson10.ipynb)	|	Numpy, Pandas and Matplotlib Crashcourse	|	--	|	Numpy, Pandas, and Matplotlib overview	|	Assignment 5: Regular Expressions
+[11](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson11.ipynb)	|	Pandas Basics	|	McKinney: Ch4-5	|	Intro to NumPy and Pandas: `ndarray`, `Series`, `DataFrame`, `index`, `columns`, `dtypes`, `info`, `describe`, `read_csv`, `head`, `tail`, `loc`, `iloc`, `ix`, `to_datetime`	|	--
+[12](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson12.ipynb)	|	Pandas Advanced	|	McKinney: Ch6-8	|	Data Analysis with Pandas: `concat`, `append`, `merge`, `join`, `set_option`, `stack`, `unstack`, `transpose`, dot-notation, `values`, `apply`, `lambda`, `sort_index`, `sort_values`, `to_csv`, `read_csv`, `isnull`	|	Assignment 6: Pandas Fundamentals
+[13](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson13.ipynb)	|	Plotting with Matplotlib	|	McKinney: Ch9; J.R. Johansson: [Matplotlib 2D and 3D plotting in Python](http://github.com/jrjohansson/scientific-python-lectures)	|	Matplotlib tutorial from J.R. Johansson	|	--
 [14](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson14.ipynb)	|	Plotting with Seaborn	|	[Seaborn Tutorial](http://seaborn.pydata.org/tutorial.html)	|	Seaborn tutorial from Michael Waskom	|	Assignment 7: Matplotlib and Seaborn
-[15](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson15.ipynb)	|	Pandas Time Series	|	McKinney: Ch 10, [Pandas Documentation: Time Series and Date](http://pandas.pydata.org/pandas-docs/stable/timeseries.html)	|	Time series data in Pandas	|	--
-[16](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson16.ipynb)	|	Pandas Group Operations	|	McKinney: Ch 9	|	`groupby`, `melt`, `pivot`, `inplace=True`, `reindex`	|	Assignment 8: Pandas Advanced
+[15](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson15.ipynb)	|	Pandas Time Series	|	McKinney: Ch11	|	Time series data in Pandas	|	--
+[16](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson16.ipynb)	|	Pandas Group Operations	|	McKinney: Ch10	|	`groupby`, `melt`, `pivot`, `inplace=True`, `reindex`	|	Assignment 8: Pandas Advanced
 [17](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson17.ipynb)	|	Statistics Packages	|	--	|	Statitics capabilities of Pandas, Numpy, Scipy, and Scikit-bio	|	--
 [18](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson18.ipynb)	|	Interactive Visualization with Bokeh	|	[Bokeh User Guide](http://bokeh.pydata.org/en/latest/docs/user_guide.html)	|	Quickstart guide to making interactive HTML and notebook plots with Bokeh	|	Assignment 9: Statistics and Interactive Visualization
 [19](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson19.md)	|	Modules and Classes	|	Lutz: TBA	|	Packaging your code so you and others can use it again	|	--
 [20](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/ipynb/lesson20.md)	|	Git and GitHub	|	--	|	Sharing your code in a public GitHub repository	|	Final Project
-
-## Assignments
-
-### Homeworks
-
-Programming assignments: Weekly take-home assignments will be provided when the quarter begins. These exercises will focus on analysis and visualization of scientific data.
-
-### Final Project
-
-* Choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis.
-* Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas.
-* You should use one or several application-specific packages, such as:
-	- Data analysis and plotting: pandas, matplotlib, Seaborn
-	- Bioinformatics: scikit-bio, Biopython
-	- Climate science: CDMS (UV-CDAT), Iris
-* You should use at least 3 user-defined functions (optional: user-defined modules and classes).
-
-Note: There are no midterm or final exams.
 
 <!--
 
