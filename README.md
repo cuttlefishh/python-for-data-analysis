@@ -97,7 +97,7 @@ _Schedule is subject to change._
 
 We will start with an introduction to the command line in Week 1, so that everyone is familiar with basic Unix commands. 
 
-Weeks 2-4 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python The Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. 
+Weeks 2-4 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python 3 the Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. 
 
 Also in Weeks 2-4, we will learn to use IPython and IPython Notebooks (also called Jupyter), a much richer Python experience than the Unix command line or Python interpreter. 
 
