@@ -9,18 +9,23 @@
 
 ## Meetings
 
-* Time: Tu/Th 9:00-10:20
-* Room: Sea Cave, first floor of Eckart Building, Code: ____
+* Quarter: Winter 2017-18
+* Meeting time: Tu/Th 9:00-10:20
+* First and last day of class: January 9-March 15 (20 lessons)
+* Location and door code: ask instructor
+
+## Online Content
+
 * GitHub repository: <https://github.com/cuttlefishh/python-for-data-analysis>
 * YouTube channel: <https://www.youtube.com/channel/UCVZrIrWtcvTzYlrNx7RcDyg>
 
-## Course Materials
-
-### Textbooks
+## Textbooks
 
 * [_Learn Python The Hard Way_](http://learnpythonthehardway.org) by Zed Shaw[^lpthw] -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course
 * [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz[^pythonbook] --  Optional; more traditional introduction to Python as a computer language
 * [_Python For Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney[^pandasbook] -- Manual focused on Pandas, the popular Python package for data analysis, by its creator; GitHub page: <https://github.com/wesm/pydata-book>
+
+## Additional Materials
 
 ### Command Line Resources
 
