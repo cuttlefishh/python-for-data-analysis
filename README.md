@@ -21,9 +21,9 @@
 
 ## Textbooks
 
-* [_Learn Python 3 the Hard Way_](http://learnpythonthehardway.org) by Zed Shaw (Addison-Wesley) -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course.
+* [_Learn Python 3 the Hard Way_](https://learnpythonthehardway.org/python3/) by Zed Shaw (Addison-Wesley) -- Step-by-step introduction to Python with no prior knowledge assumed; includes appendix Command Line Crash Course.
 * [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz (O'Reilly) --  Optional; more traditional introduction to Python as a computer language.
-* [_Python For Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney (O'Reilly) -- Manual focused on Pandas, the popular Python package for data analysis, by its creator. GitHub page: <https://github.com/wesm/pydata-book>.
+* [_Python for Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney (O'Reilly) -- Manual focused on Pandas, the popular Python package for data analysis, by its creator. GitHub page: <https://github.com/wesm/pydata-book>.
 
 Note: O'Reilly Media titles are free to UCSD affiliates with [Safari Books Online](http://proquest.safaribooksonline.com/?uicode=ucsd).
 
@@ -34,8 +34,8 @@ Note: O'Reilly Media titles are free to UCSD affiliates with [Safari Books Onlin
 * [Git for Windows](https://git-for-windows.github.io) -- BASH emulator and Git software for Windows
 * [Learning the Shell](http://www.linuxcommand.org/learning_the_shell.php) -- Great intro to the Unix shell
 * [Unix Tutorial](http://evomics.org/unix-tutorial-2015/) by Julian Catchen -- From [Evomics 2015](http://evomics.org/workshops/workshop-on-genomics/2015-workshop-on-genomics-cesky-krumlov/) workshop in Czech Republic
-* [_Command Line Crash Course_](http://cli.learncodethehardway.org/book/) by Zed Shaw -- Duplicate content of Appendix A of Shaw's _LPTHW_
 * [Learn the Command Line](https://www.codecademy.com/courses/learn-the-command-line) -- Code Academy
+* [_Learn Unix The Hard Way_](http://cli.learncodethehardway.org/book/) by Zed Shaw -- More detail than you will get from Appendix A of Shaw's _LPTHW_
 
 ### Python Resources
 
@@ -111,7 +111,7 @@ In Weeks 5-10, we'll work through McKinney's _Python for Data Analysis_, which i
 Lesson	|	Title	|	Readings	|	Topics	|	Assignment
 -----	|	-----	|	-----	|	-----	|	-----
 [1](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/schedule.tsv)	|	Overview	|	--	|	Introductions and overview of course	|	Pre-course survey; Acquire texts
-[2](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson02.md)	|	Command Line Part I	|	Shaw: The Hard Way Is Easier, Ex0, Appendix A: Command Line Crash Course	|	Introduction to the command line, the bash shell, and text editors	|	Assignment 1: Basic Shell Commands
+[2](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson02.md)	|	Command Line Part I	|	Shaw: Introduction, Ex0, Appendix A: Command Line Crash Course	|	Introduction to the command line, the bash shell, and text editors	|	Assignment 1: Basic Shell Commands
 [3](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson03.md)	|	Command Line Part II	|	--	|	Advanced commands in the bash shell	|	--
 [4](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson04.ipynb)	|	Conda, IPython, and Jupyter Notebooks	|	Install: [Miniconda 3](http://conda.pydata.org/miniconda.html)	|	Conda tutorial including Conda environments, Python packages, and PIP, Python and IPython in the command line, Jupyter notebook tutorial and Python crash course	|	Assignment 2: Bash, Conda, IPython, and Jupyter
 [5](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson05.ipynb)	|	Python Basics, Strings, Printing	|	Shaw: Ex1-10; Lutz: Ch1-7	|	Python scripts, error messages, printing strings and variables, strings and string operations, numbers and mathematical expressions, getting help with commands and Ipython	|	--
