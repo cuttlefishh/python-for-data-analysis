@@ -82,9 +82,10 @@ Requirements:
 
 * Submit your project as either: a Jupyter notebook (or collection of notebooks), a Python script (or collection of scripts), or a combination of the two.
 * Use at least three (3) application-specific packages, such as:
-	- Data analysis and plotting: pandas, matplotlib, Seaborn
-	- Bioinformatics: scikit-bio, Biopython
-	- Climate science: CDMS (UV-CDAT), Iris
+	- Data analysis and plotting: `pandas`, `matplotlib`, `seaborn`
+	- Statistics and modeling: `statsmodels`, `scikit-learn`
+	- Bioinformatics: `scikit-bio`, `biopython`
+	- Climate science: `cdms` (UV-CDAT), `iris`
 * Use at least three (3) user-defined functions.
 * Optional: Create user-defined modules and classes for use in your code.
 
