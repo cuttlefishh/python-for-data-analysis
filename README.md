@@ -117,7 +117,7 @@ In Weeks 5-10, we'll work through McKinney's _Python for Data Analysis_, which i
 Lesson	|	Title	|	Readings	|	Topics	|	Assignment
 -----	|	-----	|	-----	|	-----	|	-----
 [1](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/schedule.tsv)	|	Overview	|	--	|	Introductions and overview of course	|	Pre-course survey; Acquire texts
-[2](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson02.md)	|	Command Line Part I	|	Shaw: Introduction<br>Exercise 0<br>Appendix A	|	Command line crash course; Text editors	|	Assignment 1: Basic Shell Commands
+[2](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson02.md)	|	Command Line Part I	|	Shaw: Introduction,<br>Exercise 0,<br>Appendix A	|	Command line crash course; Text editors	|	Assignment 1: Basic Shell Commands
 [3](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson03.md)	|	Command Line Part II	|	--	|	Advanced commands in the bash shell	|	--
 [4](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson04.ipynb)	|	Conda, IPython, and Jupyter Notebooks	|	Install: [Miniconda 3](http://conda.pydata.org/miniconda.html)	|	Conda tutorial including Conda environments, Python packages, and PIP, Python and IPython in the command line, Jupyter notebook tutorial and Python crash course	|	Assignment 2: Bash, Conda, IPython, and Jupyter
 [5](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson05.ipynb)	|	Python Basics, Strings, Printing	|	Shaw: Ex1-10; Lutz: Ch1-7	|	Python scripts, error messages, printing strings and variables, strings and string operations, numbers and mathematical expressions, getting help with commands and Ipython	|	--
