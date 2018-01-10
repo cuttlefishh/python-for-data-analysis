@@ -9,13 +9,13 @@ Skills you will learn in this lesson:
 * Working with input and output
 * Absolute and relative paths, symbolic links
 * Bash variables and commands
-* Text editors: nano, vim, emacs, [Sublime Text](https://www.sublimetext.com), [MacDown](http://macdown.uranusjr.com)
+* Text editors: nano, vim, emacs, Atom, [Sublime Text](https://www.sublimetext.com), [MacDown](http://macdown.uranusjr.com)
 * Executing bash scripts and dot-files (e.g., `.bash_profile`)
 * Setting up your Terminal settings and bash environment
 
 ### Basic commands
 
-#### Moving between directories and creating/removing files.
+#### Moving between directories and creating/removing files
 
 * `pwd` -- print working directory
 * `ls` -- list contents of working directory
