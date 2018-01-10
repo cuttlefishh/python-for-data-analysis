@@ -139,64 +139,6 @@ For serious coding, Sublime Text or Nano is great. For small jobs or if you want
 
 Any of the commands we have used from the command line (the bash prompt `$`) can also be typed into a text file and executed by typing `bash SCRIPT.sh` from the command line.
 
-### Assignment for Lesson 1
-
-**Basic commands**
-
-1. Create a working directory for today's class.
-2. Within that directory, create a temporary test directory.
-3. Create a file using one method I showed you.
-4. Create a file using a different method I showed you.
-5. Rename one of the files.
-6. Copy one of the files.
-7. Delete one of the files.
-8. Delete the temporary directory.
-
-**Working with commands**
-
-1. Learn more about a command you just learned using a unix command.
-2. Learn more about a command you just learned using Google.
-3. Find out where the commands `mv` and `cp` are located on your computer.
-4. Get a list of the commands you've typed already.
-5. See which processes are running on your computer.
-6. What happens when you type Tab in the middle of a command?
-7. What happens when you type Tab in the middle of a file name or path?
-
-**Setting up your bash environment**
-
-1. Download the text editor [Sublime Text](https://www.sublimetext.com).
-2. Customize your terminal by editing `.profile` or `.bashrc` using Sublime Text.
-3. Source your bash profile file using `source ~/.profile`.
-4. Open a new terminal to make sure it automatically sources your bash profile file. You may have to change the preferences in the Terminal app.
-
-**More commands**
-
-1. Print the first 5 lines of a text file.
-2. Print the last 10 commands you entered.
-3. View the contents of a file without printing anything to the screen.
-4. Open a file in its designated application.
-5. Determine the kind/type of a file.
-6. Search for a word in a file.
-7. Get only the third column of a tab-delimited file.[^1]
-8. Using a different method, get the first field of a tab-delimited file and save it as a new file.
-
-[^1]: To insert a Tab character, type Ctrl-V and then Tab.
-
-**Paths and variables**
-
-1. Navigate to root and home directories using absolute paths.
-2. Navigate to root and home directories using relative paths.
-3. Store an integer as a shell variable then print it.
-4. Store a file name as a shell variable.
-5. Print your current path variable.
-6. Print your home directory.
-7. Write a `for` loop to count to 10.
-
-**Executing bash scripts and dot-files**
-
-1. Write a bash script that uses the commands `mkdir`, `cat`, `mv`, `echo`, and a `for` loop.
-2. Execute you bash script using the terminal.
-
 ### Appendix: The Nano Text Editor
 
 Credit: [SDSU Department of Astronomy](http://mintaka.sdsu.edu/reu/nano.html)
@@ -206,7 +148,7 @@ Credit: [SDSU Department of Astronomy](http://mintaka.sdsu.edu/reu/nano.html)
 Nano is a text editor suited to working in UNIX. It is not as powerful as PC window-based editors, as it does not rely on the mouse, but still has many useful features.
 Most nano commands are invoked by holding down the `Ctrl` key (that is, the control key), and pressing one of the other keys. In this text, the control key is referred to using `^`. For example, `^X` means "hold down the control key and press the x key". Most of the important commands are listed at the bottom of your screen.
 
-`^G	` nano help
+* `^G	` nano help
 
 #### Starting nano
 

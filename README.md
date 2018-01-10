@@ -1,5 +1,11 @@
 # SIOC 209: Python for Data Analysis
 
+This course focuses on analyzing data of all types using the Python programming language. No programming experience is necessary.
+
+We start with an introduction (or refresher) to the command line. We then cover the fundamentals of Python and its data types, followed by the data analysis packages Numpy and Pandas, and plotting packages Matplotlib and Seaborn, plus statistics and interactive visualization.
+
+Jupyter (IPython) notebooks are used throughout. Conda is used for package management and virtual environments. All notebooks are in Python 3 unless otherwise noted.
+
 ## Instructor
 
 * Luke Thompson, Ph.D.
