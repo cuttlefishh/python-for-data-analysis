@@ -1,5 +1,7 @@
 ## Lesson 02 - Command Line and Bash
 
+Skills you will learn in this lesson:
+
 * Moving between directories and creating/removing files
 * Working with commands and processes
 * Investigating text files
@@ -8,8 +10,8 @@
 * Absolute and relative paths, symbolic links
 * Bash variables and commands
 * Text editors: nano, vim, emacs, [Sublime Text](https://www.sublimetext.com), [MacDown](http://macdown.uranusjr.com)
-* Execute bash scripts and dot-files (e.g., `.bash_profile`)
-* Set up your Terminal settings and bash environment
+* Executing bash scripts and dot-files (e.g., `.bash_profile`)
+* Setting up your Terminal settings and bash environment
 
 ### Basic commands
 
@@ -35,7 +37,6 @@
 * `which COMMAND` -- show location of command
 * `history` -- display past commands
 * `top` -- display current processes
-
 
 ### Setting up your bash environment
 
@@ -76,7 +77,7 @@ alias taill='ls -lrt | tail'
 
 #### Other text editors
 
-For serious coding, Sublime Text is great. For small jobs or if you want to stay inside the terminal, there are other useful programs. Note: `cat` is only useful for creating very basic files, or starting files and finishing them in a proper text editor.
+For serious coding, Sublime Text or Nano is great. For small jobs or if you want to stay inside the terminal, there are other useful programs. Note: `cat` is only useful for creating very basic files, or starting files and finishing them in a proper text editor.
 
 * `nano FILE` - nano is the most basic text editor (see Appendix: The Nano Text Editor at end of this lesson)
 * `emacs FILE` - emacs is a popular full-featured text editor controlled by keystrokes
@@ -257,4 +258,3 @@ Cut and paste:
 * `^O`	save contents without exiting (you will be prompted for a file to save to)
 * `^X`	exit nano (you will be prompted to save your file if you haven't)
 * `^T`	when saving a file, opens a browser that allows you to select a file name from a list of files and directories
-
