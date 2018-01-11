@@ -1,37 +1,55 @@
-## Lesson 02 - Command Line and Bash
+## Lesson 02 - Command Line Part I
 
 Skills you will learn in this lesson:
 
-* Moving between directories and creating/removing files
-* Working with commands and processes
+* Moving between directories
+* Absolute and relative paths
+* Creating, moving, and removing files and directories
 * Investigating text files
-* Parsing files
-* Working with input and output
-* Absolute and relative paths, symbolic links
-* Bash variables and commands
-* Text editors: nano, vim, emacs, Atom, Sublime Text, MacDown
-* Executing bash scripts and dot-files (e.g., `.bash_profile`)
-* Setting up your Terminal settings and bash environment
+* Working with commands and processes
+* GUI and command-line text editors
+* Setting up your bash environment
 
 ### Basic commands
 
-#### Moving between directories and creating/removing files
+#### Moving between directories
 
 * `pwd` -- print working directory
 * `ls` -- list contents of working directory
 * `cd DIRECTORY` -- change to directory
 * `cd` -- change to home directory
 * `cd -` -- change to previous directory
+
+#### Absolute and relative paths
+
+* `.` -- current directory
+* `..` -- one directory up
+* `../..` -- two directories up
+* `/` -- root directory
+* `~` -- home directory
+
+#### Creating, moving, and removing files and directories
+
 * `mkdir DIRECTORY` -- make directory
 * `rmdir DIRECTORY` -- remove empty directory
-* `touch FILE` -- create an empty file
+* `touch FILE` -- create an empty file or change file modification time
 * `cat FILE` -- print contents of file
 * `cat > FILE` -- write to file
 * `cat >> FILE` -- append to file
 * `cp FILE1 FILE2` -- copy file
 * `mv FILE1 FILE2` -- move file
 * `rm FILE` -- remove file
-* `exit` -- close the current session
+* `ln -s FILE LINK` -- make a symbolic link
+
+#### Investigating text files
+
+* `less FILE` -- view a text file
+* `head FILE` -- first 10 lines of file
+* `tail FILE` -- last 10 lines of file
+* `wc FILE` -- count the words and characters in a file
+* `open FILE` -- open a file using default program (on a Mac)
+* `file FILE` -- get the file type for file(s)
+* `grep REGEX FILE` -- search a text file for a string or regular expression
 
 #### Working with commands and processes
 
@@ -40,6 +58,7 @@ Skills you will learn in this lesson:
 * `which COMMAND` -- show location of command
 * `history` -- display past commands
 * `top` -- display current processes
+* `exit` -- close the current session
 
 ### Text editors
 
@@ -53,9 +72,9 @@ A great way to document your work is using Markdown, a simple markup style. It i
 
 For small jobs or if you want to stay inside the terminal, there are other useful programs. Note: `cat` is only useful for creating very basic files, or starting files and finishing them in a proper text editor.
 
-* `nano FILE` - nano is the most basic text editor (see Appendix: The Nano Text Editor at end of this lesson)
-* `emacs FILE` - emacs is a popular full-featured text editor controlled by keystrokes
-* `vim FILE` - vim or vi is a popular competitor to emacs that loads faster 
+* `nano FILE` -- nano is the most basic text editor (see Appendix: The Nano Text Editor at end of this lesson)
+* `emacs FILE` -- emacs is a popular full-featured text editor controlled by keystrokes
+* `vim FILE` -- vim or vi is a popular competitor to emacs that loads faster 
 
 ### Setting up your bash environment
 
@@ -91,79 +110,6 @@ alias u2m="tr '\012' '\015'"
 alias rm='rm -i'
 alias taill='ls -lrt | tail'
 ```
-
-### More commands
-
-#### Investigating text files
-
-* `less FILE` -- view a text file
-* `head FILE` -- first 10 lines of file
-* `tail FILE` -- last 10 lines of file
-* `wc FILE` -- count the words and characters in a file
-* `open FILE` -- open a file using default program (on a Mac)
-* `file FILE` -- get the file type for file(s)
-* `grep REGEX FILE` -- search a text file for a string or regular expression
-
-#### Parsing files
-
-* `cut -d "," -f 5- FILE` -- output 5th field through end using comma field delimiter
-* `sed 's/FIND/REPLACE/g'` -- replace text in a file
-* `perl --e 's/FIND/REPLACE/g'` -- run perl commands in the command line (advanced)
-
-#### Working with input and output
-
-* `|` -- pipe output from one command to another
-* `>` -- redirect (write) to file
-* `<` -- get output of file (other type of redirect)
-* `` `COMMAND` `` -- pass output of a command (e.g., in a for loop)
-
-#### Absolute and relative paths, symbolic links
-
-* `.` -- current directory
-* `..` -- one directory up
-* `../..` -- two directories up
-* `/` -- root directory
-* `~` -- home directory
-* `ln -s FILE LINK` -- make a symbolic link
-
-#### Wildcards
-
-* `?` - match any single character
-* `*` - match any string of characters
-* `[set]` - match any character in set
-* `[!set]` - match any character *not* in set
-
-#### Brace expansion
-
-* `{start..end}` - expand a range; e.g., `b{ed,olt,ar}s`, `{2..5}`, `{d..h}`
-
-#### Control keys
-
-* `CTRL-C` - stop current command
-* `CTRL-D` - end of input
-* `CTRL-Z` - suspend current command
-
-### Variables, bash scripts, and dot-files
-
-#### Bash variables and commands
-
-* `A=0` -- assign a variable
-* `echo VARIABLE` -- output the value of a variable or expression
-* `$PATH` -- your path variable
-* `$SHELL` -- your current shell
-* `$RANDOM` -- a random number
-* `$PPID` -- process ID
-* `$HOME` -- your home directory (another name for `~` or `/Users/you`)
-* `for VARIABLE in LIST; do COMMANDS; done` -- `for` loop in bash
-
-#### Commands
-
-* `bash SCRIPT.sh` -- run a bash shell script
-* `source .DOTFILE` -- run a dot-file like your .bash_profile
-
-#### Bash scripts
-
-Any of the commands we have used from the command line (the bash prompt `$`) can also be typed into a text file and executed by typing `bash SCRIPT.sh` from the command line.
 
 ### Appendix: The Nano Text Editor
 
