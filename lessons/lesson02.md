@@ -19,7 +19,9 @@ Skills you will learn in this lesson:
 
 * `pwd` -- print working directory
 * `ls` -- list contents of working directory
-* `cd DIRECTORY` or `cd` -- change directory, change to home directory
+* `cd DIRECTORY` -- change to directory
+* `cd` -- change to home directory
+* `cd -` -- change to previous directory
 * `mkdir DIRECTORY` -- make directory
 * `rmdir DIRECTORY` -- remove empty directory
 * `touch FILE` -- create an empty file
@@ -34,6 +36,7 @@ Skills you will learn in this lesson:
 #### Working with commands and processes
 
 * `man COMMAND` -- display manual page of command if it exists
+* `help COMMAND` -- display help description of command if it exists
 * `which COMMAND` -- show location of command
 * `history` -- display past commands
 * `top` -- display current processes
@@ -114,8 +117,6 @@ alias taill='ls -lrt | tail'
 * `<` -- get output of file (other type of redirect)
 * `` `COMMAND` `` -- pass output of a command (e.g., in a for loop)
 
-### Paths and variables
-
 #### Absolute and relative paths, symbolic links
 
 * `.` -- current directory
@@ -124,6 +125,25 @@ alias taill='ls -lrt | tail'
 * `/` -- root directory
 * `~` -- home directory
 * `ln -s FILE LINK` -- make a symbolic link
+
+#### Wildcards
+
+* `?` - match any single character
+* `*` - match any string of characters
+* `[set]` - match any character in set
+* `[!set]` - match any character *not* in set
+
+#### Brace expansion
+
+* `{start..end}` - expand a range; e.g., `b{ed,olt,ar}s`, `{2..5}`, `{d..h}`
+
+#### Control keys
+
+* `CTRL-C` - stop current command
+* `CTRL-D` - end of input
+* `CTRL-Z` - suspend current command
+
+### Variables, bash scripts, and dot-files
 
 #### Bash variables and commands
 
@@ -135,8 +155,6 @@ alias taill='ls -lrt | tail'
 * `$PPID` -- process ID
 * `$HOME` -- your home directory (another name for `~` or `/Users/you`)
 * `for VARIABLE in LIST; do COMMANDS; done` -- `for` loop in bash
-
-### Executing bash scripts and dot-files
 
 #### Commands
 

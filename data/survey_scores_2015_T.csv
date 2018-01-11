@@ -1,0 +1,15 @@
+subject_id,computer_has,computer_os,score_bash,score_command,score_matlab,score_perl,score_python,score_r
+10000,N,,0,0,0,0,0,0
+13001,Y,Mac,1,2,3,0,0,0
+60985,Y,Windows,0,1,1,0,2,1
+43309,Y,Mac,3,3,0,0,1,2
+89785,Y,Windows,2,2,0,1,2,2
+57688,Y,Mac,1,1,1,0,0,0
+19366,Y,Mac,0,2,3,0,0,2
+97775,Y,Mac,2,2,3,0,1,0
+22384,Y,Windows,0,0,2,0,0,2
+31556,Y,Mac,1,2,3,0,0,0
+70964,Y,Mac,1,1,2,0,1,2
+70155,Y,Linux,1,1,1,0,1,0
+47724,Y,Mac,0,0,1,0,0,0
+37602,Y,Linux,2,2,0,1,1,2
