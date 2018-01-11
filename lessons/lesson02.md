@@ -9,7 +9,7 @@ Skills you will learn in this lesson:
 * Working with input and output
 * Absolute and relative paths, symbolic links
 * Bash variables and commands
-* Text editors: nano, vim, emacs, Atom, [Sublime Text](https://www.sublimetext.com), [MacDown](http://macdown.uranusjr.com)
+* Text editors: nano, vim, emacs, Atom, Sublime Text, MacDown
 * Executing bash scripts and dot-files (e.g., `.bash_profile`)
 * Setting up your Terminal settings and bash environment
 
@@ -38,9 +38,25 @@ Skills you will learn in this lesson:
 * `history` -- display past commands
 * `top` -- display current processes
 
+### Text editors
+
+#### GUI text editors
+
+Popular text editors for writing code are [Atom](https://atom.io) and [Sublime Text](https://www.sublimetext.com). Download and install one of them if you haven't already.
+
+A great way to document your work is using Markdown, a simple markup style. It is used widely in Jupyter notebooks and GitHub. Many text editors support Markdown, but I like the Mac program [MacDown](http://macdown.uranusjr.com). I use it as a virtual lab notebook for my bioinformatics research.
+
+#### Command-line text editors
+
+For small jobs or if you want to stay inside the terminal, there are other useful programs. Note: `cat` is only useful for creating very basic files, or starting files and finishing them in a proper text editor.
+
+* `nano FILE` - nano is the most basic text editor (see Appendix: The Nano Text Editor at end of this lesson)
+* `emacs FILE` - emacs is a popular full-featured text editor controlled by keystrokes
+* `vim FILE` - vim or vi is a popular competitor to emacs that loads faster 
+
 ### Setting up your bash environment
 
-There are several things you can do to set up your bash environment, which is what you see when you use the terminal (command line). You put these commands in a file called ~/.profile (or ~/.bashrc or ~/.bash_profile). That notation means the file is called .profile (yes, that's a period, and the file is called a dot-file), and it's in your home directory.
+There are several things you can do to set up your bash environment, which is what you see when you use the terminal (command line). You put these commands in a file called ~/.bash_profile (or ~/.bashrc or ~/.profile). That notation means the file is called .bash_profile (yes, that's a period, and the file is called a dot-file), and it's in your home directory.
 
 ```	
 # customize prompt with color and pwd
@@ -74,14 +90,6 @@ alias taill='ls -lrt | tail'
 ```
 
 ### More commands
-
-#### Other text editors
-
-For serious coding, Sublime Text or Nano is great. For small jobs or if you want to stay inside the terminal, there are other useful programs. Note: `cat` is only useful for creating very basic files, or starting files and finishing them in a proper text editor.
-
-* `nano FILE` - nano is the most basic text editor (see Appendix: The Nano Text Editor at end of this lesson)
-* `emacs FILE` - emacs is a popular full-featured text editor controlled by keystrokes
-* `vim FILE` - vim or vi is a popular competitor to emacs that loads faster 
 
 #### Investigating text files
 
@@ -133,7 +141,7 @@ For serious coding, Sublime Text or Nano is great. For small jobs or if you want
 #### Commands
 
 * `bash SCRIPT.sh` -- run a bash shell script
-* `source .DOTFILE` -- run a dot-file like your .profile
+* `source .DOTFILE` -- run a dot-file like your .bash_profile
 
 #### Bash scripts
 
