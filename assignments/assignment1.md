@@ -1,5 +1,7 @@
 ### Assignment 1
 
+Execute these commands in your Terminal. Copy and paste the commands and output to a text file, then save and submit this text file as your completed assignment. You may use plain text (.txt) or Markdown (.md) format.
+
 **Basic commands**
 
 1. Create a working directory for today's class.
