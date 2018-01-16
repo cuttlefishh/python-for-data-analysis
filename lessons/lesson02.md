@@ -109,6 +109,15 @@ alias m2u="tr '\015' '\012'"
 alias u2m="tr '\012' '\015'"
 alias rm='rm -i'
 alias taill='ls -lrt | tail'
+
+# history settings
+export HISTCONTROL=ignoredups:erasedups  # no duplicate entries
+export HISTSIZE=100000                   # big big history
+export HISTFILESIZE=100000               # big big history
+shopt -s histappend                      # append to history, don't overwrite it
+
+# save and reload the history after each command finishes
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 ```
 
 ### Appendix: The Nano Text Editor
