@@ -106,9 +106,8 @@ set -o emacs
 * `Alt+T` -- Swap the current word with the previous word.
 * `Ctrl+T` -- Swap the last two characters before the cursor with each other. You can use this to quickly fix typos when you type two characters in the wrong order.
 * `Ctrl+_` -- Undo your last key press. You can repeat this to undo multiple times.
-Cutting and Pasting
 
-#### Cut and paste
+#### Cutting and pasting
 
 * `Ctrl+W` -- Cut the word before the cursor, adding it to the clipboard.
 * `Ctrl+K` -- Cut the part of the line after the cursor, adding it to the clipboard.
