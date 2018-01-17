@@ -40,7 +40,7 @@ Any of the commands we have used from the command line (the bash prompt `$`) can
 
 #### Working with input and output
 
-* `|` -- pipe output from one command to another
+* `|` -- pipe output from one command to another (e.g., `sort | uniq`)
 * `>` -- redirect (write) to file
 * `<` -- get output of file (other type of redirect)
 * `` `COMMAND` `` -- pass output of a command (e.g., in a for loop)
