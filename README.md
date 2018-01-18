@@ -101,13 +101,13 @@ Note: There are no midterm or final exams.
 
 _Schedule is subject to change._
 
-We will start with an introduction to the command line in Week 1, so that everyone is familiar with basic Unix commands. 
+There are 10 weeks and 2 lessons per week, for a total of 20 lessons. Math!
 
-Weeks 2-4 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python 3 the Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. 
+Week 1 plus half of Week 2 will be an introduction to the command line. By the end of this tutorial, everyone will be familiar with basic Unix commands. 
 
-Also in Weeks 2-4, we will learn to use IPython and IPython Notebooks (also called Jupyter), a much richer Python experience than the Unix command line or Python interpreter. 
+Weeks 2-4 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python 3 the Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. We will learn to use IPython and IPython Notebooks (also called Jupyter), a much richer Python experience than the Unix command line or Python interpreter. 
 
-In Weeks 5-10, we'll work through McKinney's _Python for Data Analysis_, which is all about analyzing data, doing statistics, and making pretty plots (you may find that Python can emulate much of the functionality of R and MATLAB).
+Weeks 5-10 will focus on Python packages for data analysis. We will work through McKinney's _Python for Data Analysis_, which is all about analyzing data, doing statistics, and making pretty plots. You may find that Python can emulate much of the functionality of R and MATLAB.
 
 ## Detailed Schedule
 
