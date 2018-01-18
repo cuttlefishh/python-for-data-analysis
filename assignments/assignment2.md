@@ -1,6 +1,6 @@
 ### Assignment 2 - Bash, Conda, IPython, and Jupyter
 
-Work through these tasks. Copy and paste the commands an output for the first two sections to a text file; for the third section, because these are Jupyter notebooks, type out your answers directly in the text file. Turn in the text file as your completed assignment.
+Work through these tasks. Copy and paste the commands and output for the first two sections to a text file; for the third section, because these are Jupyter notebooks, type out your answers directly in the text file. Turn in the text file as your completed assignment.
 
 **Installing Miniconda and working with Conda**
 
