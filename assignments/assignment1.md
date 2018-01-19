@@ -1,6 +1,6 @@
 ### Assignment 1 - Basic Shell Commands
 
-Execute these commands in your Terminal. Copy and paste the commands and output to a text file, then save and submit this text file as your completed assignment. You may use plain text (.txt) or Markdown (.md) format.
+Execute these commands in your Terminal. Copy and paste the commands and output to a text file, then save and submit this text file as your completed assignment. You may use plain text (.txt) or Markdown (.md) format. Please name your file `1_first_last.txt` or `1_first_last.md` (substitute your first and last name).
 
 **Basic commands**
 
