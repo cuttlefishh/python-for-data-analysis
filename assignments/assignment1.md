@@ -1,10 +1,10 @@
 ### Assignment 1 - Basic Shell Commands
 
-Execute these commands in your Terminal. Copy and paste the commands and output to a text file, then save and submit this text file as your completed assignment. You may use plain text (.txt) or Markdown (.md) format. Please name your file `1_first_last.txt` or `1_first_last.md` (substitute your first and last name).
+Execute these commands in your terminal. Copy and paste the commands and output (i.e., your terminal session) to a text file, then save and submit this text file as your completed assignment. You may use plain text (.txt) or Markdown (.md) format. Please name your file `1_first_last.txt` or `1_first_last.md` (substitute your first and last name).
 
 **Basic commands**
 
-1. Create a working directory for today's class.
+1. Navigate to your working directory for the class.
 2. Within that directory, create a temporary test directory.
 3. Create a file using one method I showed you.
 4. Create a file using a different method I showed you.
@@ -20,14 +20,14 @@ Execute these commands in your Terminal. Copy and paste the commands and output 
 3. Find out where the commands `mv` and `cp` are located on your computer.
 4. Get a list of the commands you've typed already.
 5. See which processes are running on your computer.
-6. What happens when you type Tab in the middle of a command?
-7. What happens when you type Tab in the middle of a file name or path?
+6. What happens when you type <Tab> in the middle of typing a command?
+7. What happens when you type <Tab> in the middle of typing a file name or path?
 
 **Setting up your bash environment**
 
-1. Download the text editor [Sublime Text](https://www.sublimetext.com).
-2. Customize your terminal by editing `.profile` or `.bashrc` using Sublime Text.
-3. Source your bash profile file using `source ~/.profile`.
+1. Download a text editor such as []() or [Sublime Text](https://www.sublimetext.com) if you haven't already.
+2. Using your text editor, customize your terminal by editing the file `.bash_profile` in your home directory.
+3. Source your bash profile file with the command `source ~/.bash_profile`.
 4. Open a new terminal to make sure it automatically sources your bash profile file. You may have to change the preferences in the Terminal app.
 
 **More commands**
@@ -38,10 +38,8 @@ Execute these commands in your Terminal. Copy and paste the commands and output 
 4. Open a file in its designated application.
 5. Determine the kind/type of a file.
 6. Search for a word in a file.
-7. Get only the third column of a tab-delimited file.[^1]
+7. Get only the third column of a tab-delimited file. (To insert a tab character, type <Ctrl>-V and then <Tab>.)
 8. Using a different method, get the first field of a tab-delimited file and save it as a new file.
-
-[^1]: To insert a Tab character, type Ctrl-V and then Tab.
 
 **Paths and variables**
 
