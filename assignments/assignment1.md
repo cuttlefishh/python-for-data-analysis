@@ -15,13 +15,13 @@ Execute these commands in your terminal. Copy and paste the commands and output 
 
 #### B. Working with commands
 
-1. Learn more about a command you just learned using a unix command.
-2. Learn more about a command you just learned using Google.
+1. Learn more about a command from class using a Unix command.
+2. Learn more about a command from class using a Google search.
 3. Find out where the commands `mv` and `cp` are located on your computer.
 4. Get a list of the commands you've typed already.
 5. See which processes are running on your computer.
-6. What happens when you type <Tab> in the middle of typing a command?
-7. What happens when you type <Tab> in the middle of typing a file name or path?
+6. What happens when you type `Tab` in the middle of typing a command?
+7. What happens when you type `Tab` in the middle of typing a file name or path?
 
 #### C. Setting up your bash environment
 
@@ -38,7 +38,7 @@ Execute these commands in your terminal. Copy and paste the commands and output 
 4. Open a file in its designated application.
 5. Determine the kind/type of a file.
 6. Search for a word in a file.
-7. Get only the third column of a tab-delimited file. (To insert a tab character, type <Ctrl>-V and then <Tab>.)
+7. Get only the third column of a tab-delimited file. (To insert a tab character, type `Ctrl-V` and then `Tab`.)
 8. Using a different method, get the first field of a tab-delimited file and save it as a new file.
 
 #### E. Paths and variables
