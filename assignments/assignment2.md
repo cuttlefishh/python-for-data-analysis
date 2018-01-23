@@ -1,6 +1,6 @@
 ### Assignment 2 - Bash, Conda, IPython, and Jupyter
 
-Work through these tasks. Copy and paste the commands and output for the first two sections to a text file; for the third section, because these are Jupyter notebooks, type out your answers directly in the text file. Turn in the text file as your completed assignment. Please name your file `2_first_last.txt` or `2_first_last.md` (substitute your first and last name).
+Work through these tasks. For section A, copy your history containing the commands you executed for this section. For sections B and C, you don't need to turn in any commands or code; just provide your answers to the questions. Turn in a single text file of your answers. Please name your file `2_first_last.txt` or `2_first_last.md` (substitute your first and last name).
 
 #### A. Installing Miniconda and working with Conda
 
@@ -19,5 +19,5 @@ Work through these tasks. Copy and paste the commands and output for the first t
 
 #### C. Working with Jupyter notebooks and Python basics
 
-1. Launch your `python3` conda environment and then launch the Jupyter notebook server. Which kinds of notebooks can you create? Open a Terminal within the notebook environment and determine your Python version.
-2. Launch your `python2` conda environment and then launch the Jupyter notebook server. Which kinds of notebooks can you create? Open a Terminal within the notebook environment and determine your Python version.
+1. Launch your `python3` conda environment and then launch the Jupyter notebook server. Which kinds of notebooks can you create? Open a Terminal within the notebook environment; what is your Python version?
+2. Launch your `python2` conda environment and then launch the Jupyter notebook server. Which kinds of notebooks can you create? Open a Terminal within the notebook environment; what is your Python version?
