@@ -21,7 +21,24 @@ Skills you will learn in this lesson:
 * `$RANDOM` -- a random number
 * `$PPID` -- process ID
 * `$HOME` -- your home directory (another name for `~` or `/Users/you`)
-* `for VARIABLE in LIST; do COMMANDS; done` -- `for` loop in bash
+
+#### Loops and logic
+
+* `for/do/done` -- for loop
+* `if/then/else/fi` -- if/then statement
+
+```
+for i in {1..3}
+do
+    echo $i
+done
+
+if [ -d "test" ]; then
+    echo "Directory exists."
+else 
+    mkdir test
+fi
+```
 
 #### Executing bash scripts and dot-files
 
