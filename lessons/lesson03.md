@@ -1,4 +1,4 @@
-## Lesson 03 - Command Line Part II
+## Lesson 3 - Command Line Part II
 
 Skills you will learn in this lesson:
 
