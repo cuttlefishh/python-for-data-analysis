@@ -1,0 +1,13 @@
+Timestamp,Respondent,Graduate program and advisor,Do you have your own laptop?,Which operating system do you run on your computer? (You may select more than one if you have multiple disk partitions or a virtual machine.),What is your experience level with the command line?,What is your experience level with the R programming language?,What is your experience level with the MATLAB programming language?,What is your experience level with the Perl programming language?,What is your experience level with the Python programming language?
+1/9/2018 9:57:18,SDNT1,PhD: SIO: Jennifer Smith,Yes,Mac,Some,Moderate,None,None,Some
+1/9/2018 9:57:53,SDNT2,PhD: SIO/Marine Biology: Lyons Lab,Yes,Mac,Some,None,None,None,Some
+1/9/2018 9:59:14,SDNT3,PhD: SIO/Biological Oceanography: Jeff Bowman,Yes,Mac,None,None,None,None,None
+1/9/2018 9:59:15,SDNT4,PhD: Structural Engineering: Hyonny Kim,Yes,Mac,Moderate,None,Experienced,None,Some
+1/9/2018 9:59:36,SDNT5,MS: SIO/Marine Biology: Douglas Bartlett,Yes,Mac,None,None,Some,None,None
+1/9/2018 9:59:38,SDNT6,"PhD: SIO/Physical Oceanography, Uwe Send",Yes,"Windows, Unix",Moderate,None,Experienced,Some,None
+1/9/2018 10:00:03,SDNT7,PhD: Economics: Dan Cayan,Yes,"Mac, Windows, Unix",Moderate,Experienced,Some,Some,Some
+1/9/2018 10:00:21,SDNT8,PhD: Engineering Physics: Alexey Arefiev,Yes,Mac,Moderate,None,Experienced,None,None
+1/9/2018 10:01:22,SDNT9,PhD: Geophysics: Dave Stegman,Yes,Mac,Some,None,Some,None,Some
+1/9/2018 11:13:57,SDNT10,Postdoc: NOAA/SWFSC: Andrew Thompson,Yes,"Windows, Unix",None,Moderate,Some,None,None
+1/9/2018 18:14:28,SDNT11,PhD: SIO/Marine Biology: Greg Rouse,Yes,Windows,None,Some,None,None,Some
+1/18/2018 17:10:41,SDNT12,PhD: BMS: Rob Knight + Karsten Zengler,Yes,Mac,Some,Some,None,None,Some
