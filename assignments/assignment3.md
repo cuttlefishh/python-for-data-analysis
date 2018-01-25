@@ -5,13 +5,13 @@ Complete the tasks below. You should turn in a single Jupyter notebook named `3_
 #### A. Python basics, strings, printing (Shaw Exercises 1–10)
 
 1. Take the file of Python code you generated in Exercise 1, called `ex1.py`, and run it on the command line. Copy the command and output from your terminal and paste it in a markdown cell in your Jupyter notebook. (Ex1)
-2. Print three regular strings and two strings containing quotation marks. (Ex1)
+2. Print a sentence that contains a phrase in double quotes; print a sentence that contains an apostrophe. (Ex1)
 3. Deliberately enter five incorrect commands (in separate cells) and interpret the error messages. (Ex1)
 4. Add comments to your code in \#2 and \#3 explaining what is happening. (Ex2)
 5. Write and evaluate five mathematical expressions. (Ex3)
 6. Assign values to three numeric and three string variables. (Ex4)
 7. Print values of the six variables you assigned in \#6. (Ex4–5)
-8. Print two strings in raw format and two strings in normal format with formatting characters. (Ch6)
+8. Print two strings in raw format (%r formatter) and two strings in general/string format (%s formatter) with formatting characters. (Ch6)
 9. Concatenate two strings into a third string, then find the length of all three strings.
 10. Print the three strings from \#9 with a tab between the first and second and a newline between the second and third.
 11. Print the three strings from \#9 with a stored formatter. (Ch7–8)
