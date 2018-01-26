@@ -111,3 +111,5 @@ San Francisco Giants
 Boston Red Sox
 San Francisco Giants
 Kansas City Royals
+Chicago Cubs
+Houston Astros
