@@ -1,6 +1,6 @@
 ### Assignment 2 - Bash, Conda, IPython, and Jupyter
 
-Work through these tasks. For section A, copy your history containing the commands you executed for this section. For sections B and C, you don't need to turn in any commands or code; just provide your answers to the questions. Turn in a single text file of your answers. Please name your file `2_first_last.txt` or `2_first_last.md` (substitute your first and last name).
+Work through these tasks. For section A, copy the commands you executed for this section and their output. For sections B and C, you don't need to turn in any commands or code; just provide your answers to the questions. Turn in a single text file of your answers. Please name your file `2_first_last.txt` or `2_first_last.md` (substitute your first and last name).
 
 Note: This assignment assumes you have already installed [Miniconda 3](https://conda.io/miniconda.html) (Miniconda for Python 3) and created an environment called `python3` (we did this in Lesson 4). If you installed Miniconda 2 (Miniconda for Python 2), you should probably delete it and install Miniconda 3. Miniconda 3 will still let you create environments using Python 2 if you need to.
 
