@@ -8,7 +8,7 @@ Complete the tasks below. Please turn in a single Jupyter notebook named `5_firs
     * Change the year "15" to "2015" using sed. (Reminder: sed syntax is `'sed s/find/replace/'`. Hint: if you want to match a forward slash in sed, you can escape it with a backslash like `\/`.)
 
 2. Regular expressions in Python: Import the re module. Then create the string 'The quick brown fox jumps over the lazy dog'.
-    * Use `re.match` or re.search to see if the string starts with 'The'.
+    * Use `re.match` or `re.search` to see if the string starts with 'The'.
     * Use `re.search` to find the first instance of a lowercase letter followed by an 'o'.
     * Use `re.findall` to find all instances of a lowercase letter followed by an 'o'.
     * Use `re.sub` to change the last word to an animal of your choice.
