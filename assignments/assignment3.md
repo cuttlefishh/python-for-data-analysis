@@ -24,9 +24,11 @@ Complete the tasks below. You should turn in a single Jupyter notebook named `3_
     * Write a .py file that takes input from the command line using `raw_input()` (Python 2) or `input()` (Python 3). After the script works, paste the text of the file into your Jupyter notebook.
     * Write a .py file that takes input from the command line using `argv`. After the script works, paste the text of the file into your Jupyter notebook.
     * Enter code into two Jupyter notebooks cells: the first stores value as variables, and the second computes the average.
+
 2. Using functions, write some code that takes two strings, prints them with the first letter capitalized, prints them with all letters capitalized, prints the first and last letter of each, prints the length of each, and then prints the concatenation of the two strings. Do it two different ways:
     * Write a .py file that uses `argv`. After the script works, paste the text of the file into your Jupyter notebook.
     * In your Jupyter notebook, comment out the `argv` portions and hard code in the values of your strings. Then make sure the code runs the same.
+
 3. Using a text editor, create a comma-separated values file with 5 columns and 5 rows. Save it in the same directory as your Jupyter notebook. In the Jupyter notebook, read and print the file in different ways, and write new files, as follows:
     * Read your .csv file using `read()`, `readline()`, or `readlines()`, and print the output to the screen (`print()` command is optional in notebooks!).
     * Do the same but use a `with` block and a different one of `read()`, `readline()`, or `readlines()`.
