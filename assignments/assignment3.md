@@ -1,6 +1,6 @@
 ### Assignment 3 - Python Fundamentals I
 
-Complete the tasks below. You should turn in a single Jupyter notebook named `3_first_last.ipynb` (substitute your first and last name); also turn in the input .csv file used in question B3. For questions where Python scripts are used instead of the Jupyter notebook (questions A1, B1, B2), instructions are provided about pasting output/scripts into markdown cells in your notebook.
+Complete the tasks below. You should turn in a single Jupyter notebook named `3_first_last.ipynb` (substitute your first and last name); also turn in the input .csv file used in question B3. For questions where Python scripts are used instead of the Jupyter notebook (questions A1, B1, B2), instructions are provided about pasting output/scripts into Markdown cells in your notebook.
 
 #### A. Python basics, strings, printing (Shaw Exercises 1–10)
 

@@ -2,7 +2,7 @@
 
 Complete the tasks below. Please turn in a single Jupyter notebook named `5_first_last.ipynb` (substitute your first and last name).
 
-1. Regular expressions in the command line: Use regular expressions to get information from the file [scripps_pier_20151110.csv](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/data/scripps_pier_20151110.csv). Copy your shell code (e.g., grep, sed) to a cell in your notebook.
+1. Regular expressions in the command line: Use regular expressions to get information from the file [scripps_pier_20151110.csv](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/data/scripps_pier_20151110.csv). Copy your shell code (e.g., grep, sed) to a Markdown cell in your notebook.
     * Get all the rows with data from 11/10/15 using grep. How would you keep the header line also? (Hint: to get an "or", use `\|` in grep or `|` in egrep.) 
     * Get all the rows where the third column (pressure) begins with a "3" using grep. (Hint: if you want to match a period `.` and not any character, you can escape it with `\.`.)
     * Change the year "15" to "2015" using sed. (Reminder: sed syntax is `'sed s/find/replace/'`. Hint: if you want to match a forward slash in sed, you can escape it with a backslash like `\/`.)
