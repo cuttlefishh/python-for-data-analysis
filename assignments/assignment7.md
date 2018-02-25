@@ -21,7 +21,7 @@ For this assignment, we will collect and wrangle data about the moons orbiting p
 
 **2.** Comparing moon diameters and volumes to their host planets.
 
-* Import `moons.xlsx` and `planets.xlsx` as Pandas DataFrames using `pd.from_excel()`.
+* Import `moons.xlsx` and `planets.xlsx` as Pandas DataFrames using `pd.read_excel()`.
 * Merge the DataFrames using the planet names (hint: set `left_on=planet_name` and `right_on=planet_name`).
 * Calculate the volume of each moon and planet; add these to your DataFrame (suggested column names: `moon_volume_km3`, `planet_volume_km3`). (Reminder: Volume = 4/3 * π * (Diameter/2)**3.)
 * Plot moon diameter versus host planet diameter (i.e., x-axis = `planet_diameter_km`, y-axis = `moon_diameter_km`) and label each moon next to its corresponding marker. Save this plot as a PDF image.
