@@ -32,9 +32,8 @@ For this assignment, we will use a file containing daily precipitation data in L
 * Plot a histogram of precipitation values using the Matplotlib function `hist()` or `violinplot()`.
 * Plot a histogram with kernel density and rugplot with the Seaborn function `distplot()`. Play around with the settings to make a histogram that represents the data well.
 * Add columns to the DataFrame for month and year. Hint: You can do this with list comprehension and the datetime attributes `month` and `year`.
-* Make boxplots by month using the Seaborn function `boxplot()`: 
-    * by year: Which year was the rainiest? 
-    * by month: Which month was the rainiest? 
+* Use groupby to group the data by `year` or by `month`. Which year was the rainiest? Which month was the rainiest?
+* Make boxplots by year and by month using the Seaborn function `boxplot()`. 
 
 **5.** Pivoting, stacking and unstacking.
 
