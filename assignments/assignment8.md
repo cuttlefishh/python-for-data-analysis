@@ -23,17 +23,17 @@ For this assignment, we will use a file containing daily precipitation data in L
 **3.** Plot precipitation versus time.
 
 * Use the Matplotlib function `plot()` to plot 'PRCP' versus 'DATE' as a line.
-* Plot 'PRCP' versus 'DATE' each year separately as a different colored line, with a legend indicating the year. Hint: You will have to extract the year from the date somehow, for example with the `.year` attribute or a regular expression, optionally creating a new column for the year.
+* Plot 'PRCP' versus 'DATE' each year separately as a different colored line, with a legend indicating the year. Hint: You will have to extract the year from the date somehow, for example with the `.year` attribute or a regular expression. You might find it easiest to add new columns for year and day of year.
 * Go back and recolor the two plots above: pick two colors from ColorBrewer or xkcd and draw your subplots again.
 * Replot the plots in a subplot with the two sets of axes in a 1x2 formation.
 
 **4.** Plot distributions of the precipitation data.
 
-* Plot a histogram of precipitation values using the Matplotlib function `hist()` or `violinplot()`.
+* Plot a histogram of precipitation values using the Matplotlib function `hist()`.
 * Plot a histogram with kernel density and rugplot with the Seaborn function `distplot()`. Play around with the settings to make a histogram that represents the data well.
-* Add columns to the DataFrame for month and year. Hint: You can do this with list comprehension and the datetime attributes `month` and `year`.
-* Use groupby to group the data by `year` or by `month`. Which year was the rainiest? Which month was the rainiest?
-* Make boxplots by year and by month using the Seaborn function `boxplot()`. 
+* Add columns to the DataFrame for year and month. Hint: You can do this with list comprehension and the datetime attributes `year` and `month`.
+* Use groupby to group the data by year or by month. Which year was the rainiest? Which month was the rainiest?
+* Make boxplots by year and by month using the Seaborn function `boxplot()`. Hint: If you make a boxplot of your DataFrame without grouping, the boxplots will be centered on zero, because there are so many days with zero precipitation. Instead, use groupby to group the data by year *and* month (use a list containing these columns), set `as_index=False`, average over those groups, and save this as a new DataFrame; then use this for your boxplots.
 
 **5.** Pivoting, stacking and unstacking.
 
