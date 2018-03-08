@@ -26,7 +26,11 @@ Complete the tasks below. Please turn in a single Jupyter notebook named `9_firs
 * Plot the price at close over the past three years of your stock and the S&P 500. Use a dual y-axis (using `twinx` like we learned in the Matplotlib lesson) to display the two prices side by side on separate scales.
 * Calculate the percent change from three years ago for both prices. How did your stock perform relative to the S&P 500?
 
-**4.** Bokeh visualization
+**4.** Bokeh visualization.
 
 * Use Bokeh to create an interactive visualization of the stock data you downloaded in Question 3. The HTML file that is generated should use the default content delivery network; i.e., it requires an internet connection to render properly.
 * Use Bokeh to create an interactive visualization from a dataset of your choice. You can choose one of the datasets from a previous assignment (e.g., precipitation in La Jolla, moons of the Solar System, or the Earth Microbiome Project) or your own dataset. The HTML file that is generated should be a stand-alone file (`mode=inline`) that does not require an internet connection to render properly.
+
+**5.** Final project proposal.
+
+* The final project description is [here](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/assignments/final_project.md). Write a short paragraph describing your proposed idea for the final project: the dataset you want to use, what analysis you want to do, and what you hope your code will do and look like when you are done. I will provide feedback when I grade your assignment. If you would like feedback sooner, please email me directly.

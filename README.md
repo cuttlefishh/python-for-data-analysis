@@ -87,11 +87,12 @@ You will choose a data set of your own or provided in one of the texts and write
 Requirements:
 
 * Submit your project as either: a Jupyter notebook (or collection of notebooks), a Python script (or collection of scripts), or a combination of the two.
-* Use at least three (3) application-specific packages, such as:
-	- Data analysis and plotting: `pandas`, `matplotlib`, `seaborn`
+* Use `pandas` and at least three (3) additional libraries/packages, such as:
+	- Plotting: `matplotlib`, `seaborn`
 	- Statistics and modeling: `statsmodels`, `scikit-learn`
 	- Bioinformatics: `scikit-bio`, `biopython`
 	- Climate science: `cdms`, `iris`
+	- Other domain-specific libraries/packages
 * Use at least three (3) user-defined functions.
 * Optional: Create user-defined modules and classes for use in your code.
 
