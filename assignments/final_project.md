@@ -13,6 +13,7 @@ Choose a data set of your own or provided in one of the texts and write a Python
 	- Other domain-specific libraries/packages
 * Use at least three (3) user-defined functions.
 * Optional: Create user-defined modules and classes for use in your code.
+* Optional: Share your code on GitHub.
 
 #### Submission
 

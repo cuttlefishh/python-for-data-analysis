@@ -95,6 +95,7 @@ Requirements:
 	- Other domain-specific libraries/packages
 * Use at least three (3) user-defined functions.
 * Optional: Create user-defined modules and classes for use in your code.
+* Optional: Share your code on GitHub.
 
 Note: There are no midterm or final exams.
 
