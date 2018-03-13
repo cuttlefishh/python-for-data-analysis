@@ -136,7 +136,7 @@ Lesson	|	Title	|	Readings	|	Topics	|	Assignment
 [16](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson16.ipynb)	|	Pandas Group Operations	|	McKinney: Ch10	|	`groupby`, `melt`, `pivot`, `inplace=True`, `reindex`	|	Assignment 8: Time Series and Group Operations
 [17](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson17.ipynb)	|	Statistics Packages	|	--	|	Statitics capabilities of Pandas, Numpy, Scipy, and Scikit-bio	|	--
 [18](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson18.ipynb)	|	Interactive Visualization with Bokeh	|	[Bokeh User Guide](http://bokeh.pydata.org/en/latest/docs/user_guide.html)	|	Quickstart guide to making interactive HTML and notebook plots with Bokeh	|	Assignment 9: Statistics and Interactive Visualization
-[19](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson19.md)	|	Modules and Classes	|	Shaw: Ex40-52	|	Packaging your code so you and others can use it again	|	--
+[19](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson19.ipynb)	|	Modules and Classes	|	Shaw: Ex40-52	|	Packaging your code so you and others can use it again	|	--
 [20](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson20.md)	|	Git and GitHub	|	--	|	Sharing your code in a public GitHub repository	|	Final Project
 
 <!--
