@@ -141,6 +141,26 @@ Lesson	|	Title	|	Readings	|	Topics	|	Assignment
 
 <!--
 
+To Change For Next Year
+-----
+
+See ./TO_CHANGE.md for most up-to-date version.
+
+Update these lessons:
+
+* lesson9.ipynb - Include x.startswith(), x.endswith(), and similar for string regular expressions.
+* lesson10.ipynb, lesson11.ipynb - Slicing with Pandas: emphasize that label-based slicing is inclusive but position-based slicing is not inclusive. Negation operator (~): explain along with .isna, .notna, .isnull, etc.
+* lesson13.ipynb - Give examples of scatter plot and other common plots.
+* lesson14.?.ipynb - Condense and add some personal touches.
+* lesson15.ipynb - Pandas Time Series. Condense and remove repetitive sections. Remove most of the business use cases ('B', 'BM', etc.). Add more commentary. Focus more on data science applications, eg importing a dataset with dates/times and indexing/slicing. Teach Timestamp and Period in parallel rather than separately. Mention that we can parse dates directly when we read the csv file, either by passing `parse_dates=[COL1,COL2]` or `parse_dates=True` if the date is in the index.
+* lesson16.ipynb - Restructure for more logical organization.
+* lesson17.ipynb - Explain OTUs better -- we can just call them 'species' or 'taxa'.
+
+Updates to assignments:
+
+* assignment8.md - In Question 2 or 3, have them add in the columns for 'YEAR', 'MONTH', 'DAY', and 'DAY_OF_YEAR'. They will need these in Questions 3 and 4. 
+
+
 Packages
 -----
 
