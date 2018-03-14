@@ -6,8 +6,6 @@ GitHub is a code-hosting platform for version control and collaboration. It lets
 
 GitHub Guides: https://guides.github.com/introduction/flow/
 
-<img src="https://guides.github.com/pdfs/githubflow-online.pdf">
-
 Steps in the GitHub flow:
 
 1. Create a **Branch** -- A branch is a copy of your project where you can try out new features and ideas. Changes won't be merged with the master branch until you are ready and someone else reviews your code. Give your branch a descriptive name.
@@ -42,7 +40,7 @@ To use Git, developers use specific commands to copy, create, change, and combin
 
 Learn more from a [full reference guide to Git commands](https://git-scm.com/docs).
 
-### Working on GitHub (github.com)
+### Working on GitHub.com
 
 #### Create a GitHub account
 
@@ -60,11 +58,11 @@ The tutorial has these steps (no coding required!):
 4. Open a **pull request**.
 5. **Merge** your pull request.
 
-### Working on Git (command line)
+### Working with Git on the Command LIne
 
 #### Set up Git
 
-This tutorial will show you how to download and install the latest version of Git, set your username and commit email address in Git, and authenticate a new repository with GitHub: https://help.github.com/articles/set-up-git/.
+This tutorial will show you how to download and install the latest version of Git, set your username and commit email address in Git, and authenticate a new repository with GitHub. Available online here: https://help.github.com/articles/set-up-git/.
 
 ```
 # first download and install Git from https://git-scm.com/downloads
@@ -93,14 +91,15 @@ cd ~/git
 
 #### Example: Contribute to an existing repository
 
+Available online here: https://guides.github.com/introduction/git-handbook/.
+
 ```
-# create a dummy repository on your github page called "repo"
+# download the hello-world repository (that you created above) from your GitHub account 
+# to your machine (replace `myusername` with your username)
+git clone https://github.com/myusername/hello-world
 
-# download a repository on GitHub.com to our machine
-git clone https://github.com/myusername/repo.git
-
-# change into the `repo` directory
-cd repo
+# change into the `hello-world` directory
+cd hello-world
 
 # create a new branch to store any new changes
 git branch my-branch
@@ -108,41 +107,63 @@ git branch my-branch
 # switch to that branch (line of development)
 git checkout my-branch
 
-# make changes, for example, edit `file1.md` and `file2.md` using the text editor
+# make changes: edit `README.md` using a text editor
+
+# create a new file
+touch .gitignore
 
 # stage the changed files
-git add file1.md file2.md
+git add README.md .gitignore
 
-# take a snapshot of the staging area (anything that's been added)
-git commit -m "my snapshot"
+# commit your changes (a snapshot of the staging area, including anything added)
+git commit -m "added .gitignore and edited README.md"
 
 # push changes to github
 git push --set-upstream origin my-branch
+
+# now go to GitHub and open a pull request, then merge my-branch into master
 ```
 
 #### Example: Start a new repository and publish it to GitHub
 
+Available online here: https://guides.github.com/introduction/git-handbook/.
+
 ```
-# create a new directory, and initialize it with git-specific functions
+# create the repo "my-repo" on your GitHub account
+
+# create a new directory with the same name
+cd ~/git
+mkdir my-repo
+
+# initialize your repo with git init
 git init my-repo
 
 # change into the `my-repo` directory
 cd my-repo
 
 # create the first file in the project
-touch README.md
+echo "# my-repo" >> README.md
 
 # git isn't aware of the file, stage it
 git add README.md
 
 # take a snapshot of the staging area
-git commit -m "add README to initial commit"
+git commit -m "added README to initial commit"
+
+# add the remote location online
+# (replace `myusername` with your username)
+git remote add origin https://github.com/myusername/my-repo.git
 
 # push changes to github
-git push --set-upstream origin master
+git push -u origin master
+
+# notice that you don't have to open a pull request because your remote repo is master,
+# not a branch off of master
 ```
 
 #### Example: Contribute to an existing branch on GitHub
+
+Available online here: https://guides.github.com/introduction/git-handbook/.
 
 ```
 # assumption: a project called `repo` already exists on the machine, and a new branch 
@@ -169,51 +190,58 @@ git commit -m "edit file1"
 git push
 ```
 
-#### Detailed example: Fork an existing repository
+#### Example: Fork an existing repository
 
-On GitHub, go the your favorite repository, such as the repository for this course:
+Modified from Yoshiki Vázquez-Baeza (@ElDeveloper).
 
-https://github.com/cuttlefishh/python-for-data-analysis
+```
+# on GitHub, go the your favorite repository, such as the repository for this course:
+# https://github.com/cuttlefishh/python-for-data-analysis
 
-Click the **Fork** button, which will create a copy of the forked repository (and branch, generally master by default).
+# click the Fork button, which will create a copy or "fork" of the repository (and 
+# a branch, generally master by default)
 
-The following will create a `python-for-data-analysis` directory in the current directory `~/git` (replace `myusername` with your username):
+# create a `python-for-data-analysis` directory in the current directory `~/git` 
+# (replace `myusername` with your username)
+git clone https://github.com/myusername/python-for-data-analysis
+cd python-for-data-analysis
 
-	git clone https://github.com/myusername/python-for-data-analysis
-	cd python-for-data-analysis
+# update your remotes, which allows you to get updates from the master "origin"
+# repository (cuttlefishh/python-for-data-analysis, in this case);
+# we call this "upstream" as it is upstream of your fork since other people merge to it
+git remote add upstream https://github.com/cuttlefishh/python-for-data-analysis
+
+# show your existing remote repositories just to check
+git remote -v
+
+# sync just to be sane; we're going to pull down the master branch from upstream
+git pull upstream master
  
-Update your remotes, which allows you to get updates from the master "origin" repository (cuttlefishh/python-for-data-analysis in this case).
-
-We're going to call this upstream as it is upstream of your fork since other people merge to it:
-
-	git remote add upstream https://github.com/cuttlefishh/python-for-data-analysis
+# sync your fork on github
+git push
  
-Sync just to be sane; we're going to pull down the master branch from upstream:
-
-	git pull upstream master
+# create a new branch (called "foo") and check it out
+git checkout -b foo
  
-Sync your fork on github:
+# time to code ...
 
-	git push
+# edit or create files, then add them
+git add <each file or directory you want to commit>
+
+# rename or delete files (changes will be "added" automatically)
+git mv <old file> <new file>
+git rm <unwanted file already committed>
+
+# commit changes at a natural milestone (can be offline)
+git commit -m "comment about commit"
+
+# ... repeat coding ...
  
-Now we can do some coding.
- 
-Create a new branch (called "foo") and check it out:
+# push to origin (your fork) the branch you're working on (must be online)
+git push origin foo
 
-	git checkout -b foo
- 
-Edit files, create files, delete files, etc.:
-
-	git add <each file or directory you want to commit>
-	git mv <old file> <new file>
-	git commit -m "Comments about commit"
-	... repeat ...
- 
-Push to origin (your fork) the branch you're working on:
-
-	git push origin foo
-
-Go to your github fork page, select the branch and click **Issue pull request**.
+# go to your GitHub fork page, select the branch, and click Issue pull request
+```
 
 #### Additional Git commands
 
@@ -252,7 +280,7 @@ gut push
 
 You will contribute back to the `upstream` repo by making a *pull request*.
 
-### Command Line Magic
+### Command Line Customization
 
 #### Tab completion
 
@@ -301,10 +329,3 @@ egit
 ... some git magic ...
 dgit
 ```
-
-### Additional Links
-
-#### Create your own repository
-
-This link has tutorials showing you how to start a new repository in different ways: http://kbroman.org/github_tutorial/pages/init.html.
-
