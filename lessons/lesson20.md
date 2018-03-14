@@ -6,7 +6,7 @@ GitHub is a code-hosting platform for version control and collaboration. It lets
 
 GitHub Guides: https://guides.github.com/introduction/flow/
 
-![githubflow-online](https://guides.github.com/pdfs/githubflow-online.pdf)
+<img src="https://guides.github.com/pdfs/githubflow-online.pdf">
 
 Steps in the GitHub flow:
 
@@ -217,12 +217,12 @@ Go to your github fork page, select the branch and click **Issue pull request**.
 
 #### Additional Git commands
 
-* **`git branch -d foo`** deletes local branch `foo`.
-* **`git push origin --delete foo`** deletes remote branch `foo`.
-* **`git remote -v`** shows list of existing remotes with remote url after name.
-* **`git log`** shows log of commits.
-* **`git stash`** stashes changes instead of committing them.
-* **`git stash pop`** re-applies the stashed changes
+* `git branch -d foo` deletes local branch `foo`.
+* `git push origin --delete foo` deletes remote branch `foo`.
+* `git remote -v` shows list of existing remotes with remote url after name.
+* `git log` shows log of commits.
+* `git stash` stashes changes instead of committing them.
+* `git stash pop` re-applies the stashed changes
 
 #### Managing remote repositories
 
