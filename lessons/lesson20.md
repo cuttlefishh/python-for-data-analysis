@@ -18,6 +18,7 @@ Steps in the GitHub flow:
 Other GitHub terms:
 
 * **Repository** -- A repository, or Git project, encompasses the entire collection of files and folders associated with a project, along with each file’s revision history.
+* **Clone** -- A clone is a local copy of a project that already exists remotely. The clone includes all the project’s files, history, and branches.
 * **Issues** -- Issues are tasks in the project that need work. Issues start as "Open", and when they are resolved they are changed to "Closed". The author of an issue can assign someone to that issue. Issues support labels, and the text of issues can have "#" mentions to other issues (e.g. "#49"), "@" mentions to other users (e.g. "@cuttlefishh"), or mentions to commit SHA-hashes (e.g., "f36e3c5b3aba23a6c9cf7c01e7485028a23c3811").
 
 ### Basic Git Commands
@@ -291,7 +292,7 @@ You can add tab completion to git so you can tab out commands, branches, etc. Th
 
 #### Changing your prompt to show git repo information
 
-The code below creates a nifty bash function that changes and colors your bash promt to show which repo and branch you are working in. Written by Yoshiki Vázquez-Baeza (@ElDeveloper). 
+The code below creates a nifty bash function `egit` that changes and colors your bash promt to show the current time, your current working directory, and which branch you are working on. Written by Yoshiki Vázquez-Baeza (@ElDeveloper).
 
 Add to your `~/.bash_profile`:
 
@@ -308,12 +309,14 @@ function egit (){
     function get_git_branch () {
         git rev-parse --abbrev-ref HEAD 2> /dev/null
     }
-    export PS1='\[\033[1;32m\]\t \[\033[0m\]\W$(branch_separator)\[\e[m\]\[\e[01;38;5;196m\]$(get_git_branch)\[\e[m\]$ '
+    export PS1="\[\033[1;32m\]\t \[\033[0m\]\W$(branch_separator)\[\e[m\]\[\e[01;38;5;196m\]$(get_git_branch)\[\e[m\]$ "
 }
 function dgit (){
-    export PS1='\[\033[1;32m\]\t \[\033[0m\]\W$ '
+    export PS1="\[\033[1;33m\][\u@\h:\w]$\[\033[0m\] "
 }
 ```
+
+*Note: The prompt in dgit should be whichever custom prompt you already defined in your `.bash_profile`; this will make your prompt return to normal when you type `dgit`.*
  
 If you have git bash completion installed, or other bash completion scripts, you may need to add this to your `~/.bash_profile`:
 
