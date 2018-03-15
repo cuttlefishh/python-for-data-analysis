@@ -87,3 +87,8 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Assignment output
+assignments/answers/moon_diameter.html
+assignments/answers/moon_volume.html
+assignments/answers/stock_price_tsla_spx.html
