@@ -1,4 +1,4 @@
-# SIOC 209: Python for Data Analysis
+# Python for Data Analysis
 
 This course focuses on analyzing data of all types using the Python programming language. No programming experience is necessary.
 
@@ -11,14 +11,17 @@ Jupyter (IPython) notebooks are used throughout. Conda is used for package manag
 * Luke Thompson, Ph.D.
 * Lecturer at SIO; Research Associate at NOAA
 * Office hours by appointment
-* Email: luke@ucsd.edu
+* Email: luke@ucsd.edu, luke.thompson@noaa.gov
 
+<!--
 ## Meetings
 
+* Course number: SIOC 209
 * Quarter: Winter 2017-18
 * Meeting time: Tu/Th 9:00-10:20
 * First and last day of class: January 9-March 15 (20 lessons)
 * Location and door code: ask instructor
+-->
 
 ## Online Content
 
