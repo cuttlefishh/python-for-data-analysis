@@ -119,7 +119,7 @@ git add README.md .gitignore
 # commit your changes (a snapshot of the staging area, including anything added)
 git commit -m "added .gitignore and edited README.md"
 
-# push changes to github
+# push changes to github (-u/--set-upstream is only required the first time)
 git push --set-upstream origin my-branch
 
 # now go to GitHub and open a pull request, then merge my-branch into master
@@ -155,7 +155,7 @@ git commit -m "added README to initial commit"
 # (replace `myusername` with your username)
 git remote add origin https://github.com/myusername/my-repo.git
 
-# push changes to github
+# push changes to github (-u/--set-upstream is only required the first time)
 git push -u origin master
 
 # notice that you don't have to open a pull request because your remote repo is master,
