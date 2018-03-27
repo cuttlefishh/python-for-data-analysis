@@ -2,11 +2,20 @@
 
 This course focuses on analyzing data of all types using the Python programming language. No programming experience is necessary.
 
-We start with an introduction (or refresher) to the command line. We then cover the fundamentals of Python and its data types, followed by the data analysis packages Numpy and Pandas, and plotting packages Matplotlib and Seaborn, plus statistics and interactive visualization.
+The IPython environment and Jupyter notebooks are used throughout. Conda is used for package management and virtual environments. All notebooks are in Python 3.
 
-Jupyter (IPython) notebooks are used throughout. Conda is used for package management and virtual environments. All notebooks are in Python 3 unless otherwise noted.
+Course topics include:
 
-[Quick link to schedule of lessons](https://github.com/cuttlefishh/python-for-data-analysis#detailed-schedule)
+* Introduction to/review of the command line
+* Fundamentals of Python and its data types
+* Data analysis packages Numpy and Pandas
+* Plotting packages Matplotlib and Seaborn
+* Statistics
+* Interactive visualization
+* Modules and classes
+* GitHub
+
+[**Lesson Schedule**](https://github.com/cuttlefishh/python-for-data-analysis#lesson-schedule)
 
 ## Instructor
 
@@ -117,7 +126,7 @@ Weeks 2-4 will be an introduction to programming using Python. The main text wil
 
 Weeks 5-10 will focus on Python packages for data analysis. We will work through McKinney's _Python for Data Analysis_, which is all about analyzing data, doing statistics, and making pretty plots. You may find that Python can emulate much of the functionality of R and MATLAB.
 
-## Detailed Schedule
+## Lesson Schedule
 
 * Course material is available as .md or .ipynb files by clicking on the lesson number below.
 * In addition to doing the readings, please follow along writing code (this is integral to the Shaw readings), and do any Study Drills (Shaw) and Chapter Quizzes (Lutz).
