@@ -2,7 +2,7 @@
 
 Course in data science. Learn to analyze data of all types using the Python programming language. No programming experience is necessary.
 
-Lesson schedule: [jump to section below](https://github.com/cuttlefishh/python-for-data-analysis#lesson-schedule) / [table only](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/schedule.tsv) / [lessons directory](https://github.com/cuttlefishh/python-for-data-analysis/tree/master/lessons)
+Link to [lessons](https://github.com/cuttlefishh/python-for-data-analysis/tree/master/lessons) directory or jump down to [lesson schedule](https://github.com/cuttlefishh/python-for-data-analysis#lesson-schedule) below.
 
 Software covered:
 
