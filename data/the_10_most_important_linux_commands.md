@@ -1,6 +1,6 @@
 # The 10 Most Important Linux Commands
 
-Credit: Brad Yale
+by Brad Yale / [link to article](https://www.informit.com/blogs/blog.aspx?uk=The-10-Most-Important-Linux-Commands)
 
 ## 1. ls
 
