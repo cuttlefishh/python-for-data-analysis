@@ -1,8 +1,12 @@
 # Python for Data Analysis
 
-This course focuses on analyzing data of all types using the Python programming language. No programming experience is necessary.
+Learn to analyze data of all types using the Python programming language. No programming experience is necessary.
 
-The IPython environment and Jupyter notebooks are used throughout. Conda is used for package management and virtual environments. All notebooks are in Python 3.
+Software covered:
+
+* IPython environment and Jupyter notebooks
+* Conda for package management and virtual environments
+* Python 3
 
 Course topics include:
 
@@ -11,9 +15,10 @@ Course topics include:
 * Data analysis packages Numpy and Pandas
 * Plotting packages Matplotlib and Seaborn
 * Statistics
+* Regular expressions
 * Interactive visualization
 * Modules and classes
-* GitHub
+* Git and GitHub
 
 [**Lesson Schedule**](https://github.com/cuttlefishh/python-for-data-analysis#lesson-schedule)
 
@@ -118,13 +123,15 @@ Note: There are no midterm or final exams.
 
 _Schedule is subject to change._
 
-There are 10 weeks and 2 lessons per week, for a total of 20 lessons. Math!
+The course consists of 20 lessons. It was originally taught as 2 lessons per week for 10 weeks, but the material can be covered at any pace.
 
-Week 1 plus half of Week 2 will be an introduction to the command line. By the end of this tutorial, everyone will be familiar with basic Unix commands. 
+Lessons 1-3 will be an introduction to the command line. By the end of this tutorial, everyone will be familiar with basic Unix commands.
 
-Weeks 2-4 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python 3 the Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. We will learn to use IPython and IPython Notebooks (also called Jupyter), a much richer Python experience than the Unix command line or Python interpreter. 
+Lessons 4-9 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python 3 the Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. We will learn to use IPython and IPython Notebooks (also called Jupyter), a much richer Python experience than the Unix command line or Python interpreter.
 
-Weeks 5-10 will focus on Python packages for data analysis. We will work through McKinney's _Python for Data Analysis_, which is all about analyzing data, doing statistics, and making pretty plots. You may find that Python can emulate much of the functionality of R and MATLAB.
+Lessons 10-18 will focus on Python packages for data analysis. We will work through McKinney's _Python for Data Analysis_, which is all about analyzing data, doing statistics, and making pretty plots. You may find that Python can emulate or exceed much of the functionality of R and MATLAB.
+
+Lessons 19-20 conclude the course with two skills useful in developing code: writing your own classes and modules, and sharing your code on GitHub.
 
 ## Lesson Schedule
 
