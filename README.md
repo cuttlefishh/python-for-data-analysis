@@ -6,14 +6,17 @@ We start with an introduction (or refresher) to the command line. We then cover 
 
 Jupyter (IPython) notebooks are used throughout. Conda is used for package management and virtual environments. All notebooks are in Python 3 unless otherwise noted.
 
+[Quick link to schedule of lessons](https://github.com/cuttlefishh/python-for-data-analysis#detailed-schedule)
+
 ## Instructor
 
 * Luke Thompson, Ph.D.
 * Lecturer at SIO; Research Associate at NOAA
-* Office hours by appointment
 * Email: luke@ucsd.edu, luke.thompson@noaa.gov
 
 <!--
+* Office hours by appointment
+
 ## Meetings
 
 * Course number: SIOC 209
