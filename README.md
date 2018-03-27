@@ -1,6 +1,6 @@
 # Python for Data Analysis
 
-Learn to analyze data of all types using the Python programming language. No programming experience is necessary.
+Course in data science. Learn to analyze data of all types using the Python programming language. No programming experience is necessary.
 
 Software covered:
 
@@ -25,8 +25,9 @@ Course topics include:
 ## Instructor
 
 * Luke Thompson, Ph.D.
-* Lecturer at SIO; Research Associate at NOAA
+* Lecturer at Scripps Institution of Oceanography, Research Associate at NOAA
 * Email: luke@ucsd.edu, luke.thompson@noaa.gov
+* Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile + CV](https://swfsc.noaa.gov/staff.aspx?id=22360)
 
 <!--
 * Office hours by appointment
