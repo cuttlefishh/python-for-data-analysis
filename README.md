@@ -25,7 +25,7 @@ Course topics include:
 ## Instructor
 
 * Luke Thompson, Ph.D.
-* Lecturer at Scripps Institution of Oceanography, Research Associate at NOAA
+* Lecturer at Scripps Institution of Oceanography, Assistant Professor at NOAA Northern Gulf Institute
 * Email: luke@ucsd.edu, luke.thompson@noaa.gov
 * Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile + CV](https://swfsc.noaa.gov/staff.aspx?id=22360)
 
@@ -128,7 +128,7 @@ The course consists of 20 lessons. It was originally taught as 2 lessons per wee
 
 Lessons 1-3 will be an introduction to the command line. By the end of this tutorial, everyone will be familiar with basic Unix commands.
 
-Lessons 4-9 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python 3 the Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. We will learn to use IPython and IPython Notebooks (also called Jupyter), a much richer Python experience than the Unix command line or Python interpreter.
+Lessons 4-9 will be an introduction to programming using Python. The main text will be Shaw's _Learn Python 3 the Hard Way_. For those with experience in a programming language other than Python, Lutz's _Learning Python_ will provide a more thorough introduction to programming Python. We will learn to use IPython and IPython Notebooks (also called Jupyter Notebooks), a much richer Python experience than the Unix command line or Python interpreter.
 
 Lessons 10-18 will focus on Python packages for data analysis. We will work through McKinney's _Python for Data Analysis_, which is all about analyzing data, doing statistics, and making pretty plots. You may find that Python can emulate or exceed much of the functionality of R and MATLAB.
 
