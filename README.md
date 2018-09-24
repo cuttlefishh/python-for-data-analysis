@@ -123,7 +123,7 @@ There are 100 points total possible for the course:
 * Final project: 20 points
 * Participation: 8 points
 
-*There are no midterm or final exams.*
+Participation is based on completing the pre-course survey, showing up to class (when you are able), and completing the course evaluation (this is on the honor system as I won't know who completes it). There are no midterm or final exams.
 
 ## Schedule Overview
 
