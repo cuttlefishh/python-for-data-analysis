@@ -27,19 +27,16 @@ Course topics include:
 * Luke Thompson, Ph.D.
 * Lecturer at Scripps Institution of Oceanography, Assistant Professor at NOAA Northern Gulf Institute
 * Email: luke@ucsd.edu, luke.thompson@noaa.gov
-* Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile + CV](https://swfsc.noaa.gov/staff.aspx?id=22360)
-
-<!--
 * Office hours by appointment
+* Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile + CV](https://swfsc.noaa.gov/staff.aspx?id=22360)
 
 ## Meetings
 
 * Course number: SIOC 209
-* Quarter: Winter 2017-18
-* Meeting time: Tu/Th 9:00-10:20
-* First and last day of class: January 9-March 15 (20 lessons)
+* Quarter: Fall 2018-19
+* Meeting time: M/W 11:00-12:20
+* First and last day of class: October 1-December 5 (20 lessons)
 * Location and door code: ask instructor
--->
 
 ## Online Content
 
@@ -95,15 +92,15 @@ Note: O'Reilly Media titles are free to UCSD affiliates with [Safari Books Onlin
 	* When you get stuck, get more information.
 	* Try to solve it yourself first.
 
-## Assignments
+## Assignments and Grading
 
-### Weekly assignments
+### Weekly Assignments
 
-Weekly take-home assignments will follow the course schedule, reinforcing skills with exercises to analyze and visualize scientific data. Assignments will given out on Thursdays and will be due the following Thursday, using TritonEd.
+Weekly take-home assignments will follow the course schedule, reinforcing skills with exercises to analyze and visualize scientific data. Assignments will given out on Thursdays and will be due the following Thursday, using TritonEd. Assignments are worth 8 points each and will be graded on effort, completeness, and accuracy.
 
 ### Final Project
 
-You will choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas.
+You will choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas. The final project is worth 20 points and will be graded on effort, creativity, and fulfillment of the requirements below.
 
 Requirements:
 
@@ -118,7 +115,15 @@ Requirements:
 * Optional: Create user-defined modules and classes for use in your code.
 * Optional: Share your code on GitHub.
 
-Note: There are no midterm or final exams.
+### Grading
+
+There are 100 points total for the quarter:
+
+* Assignments: 72 points (9 assignments x 8 points each)
+* Final project: 20 points
+* Participation: 8 points
+
+There are no midterm or final exams.
 
 ## Schedule Overview
 
@@ -157,110 +162,8 @@ Lesson	|	Title	|	Readings	|	Topics	|	Assignment
 [14](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson14.ipynb)	|	Plotting with Seaborn	|	[Seaborn Tutorial](http://seaborn.pydata.org/tutorial.html)	|	Seaborn tutorial from Michael Waskom	|	Assignment 7: Plotting
 [15](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson15.ipynb)	|	Pandas Time Series	|	McKinney: [Ch11](http://proquest.safaribooksonline.com/book/programming/python/9781491957653/time-series/timeseries_html)	|	Time series data in Pandas	|	--
 [16](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson16.ipynb)	|	Pandas Group Operations	|	McKinney: [Ch10](http://proquest.safaribooksonline.com/book/programming/python/9781491957653/data-aggregation-and-group-operations/groupby_html)	|	`groupby`, `melt`, `pivot`, `inplace=True`, `reindex`	|	Assignment 8: Time Series and Group Operations
-[17](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson17.ipynb)	|	Statistics Packages	|	[Handbook of Biological Statistics](http://www.biostathandbook.com)	|	Statitics capabilities of Pandas, Numpy, Scipy, and Scikit-bio	|	--
+[17](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson17.ipynb)	|	Statistics Packages	|	[Handbook of Biological Statistics](http://www.biostathandbook.com)	|	Statistics capabilities of Pandas, Numpy, Scipy, and Scikit-bio	|	--
 [18](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson18.ipynb)	|	Interactive Visualization with Bokeh	|	[Bokeh User Guide](http://bokeh.pydata.org/en/latest/docs/user_guide.html)	|	Quickstart guide to making interactive HTML and notebook plots with Bokeh	|	Assignment 9: Statistics and Interactive Visualization
 [19](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson19.ipynb)	|	Modules and Classes	|	Shaw: [Ex40-52](https://learnpythonthehardway.org/python3/ex40.html)	|	Packaging your code so you and others can use it again	|	--
 [20](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson20.md)	|	Git and GitHub	|	[GitHub Guides](https://guides.github.com)	|	Sharing your code in a public GitHub repository	|	Final Project
-
-<!--
-
-To Change For Next Year
------
-
-See ./TO_CHANGE.md for most up-to-date version.
-
-Update these lessons:
-
-* lesson9.ipynb - Include x.startswith(), x.endswith(), and similar for string regular expressions.
-* lesson10.ipynb, lesson11.ipynb - Slicing with Pandas: emphasize that label-based slicing is inclusive but position-based slicing is not inclusive. Negation operator (~): explain along with .isna, .notna, .isnull, etc.
-* lesson13.ipynb - Give examples of scatter plot and other common plots.
-* lesson14.?.ipynb - Condense and add some personal touches.
-* lesson15.ipynb - Pandas Time Series. Condense and remove repetitive sections. Remove most of the business use cases ('B', 'BM', etc.). Add more commentary. Focus more on data science applications, eg importing a dataset with dates/times and indexing/slicing. Teach Timestamp and Period in parallel rather than separately. Mention that we can parse dates directly when we read the csv file, either by passing `parse_dates=[COL1,COL2]` or `parse_dates=True` if the date is in the index.
-* lesson16.ipynb - Restructure for more logical organization.
-* lesson17.ipynb - Explain OTUs better -- we can just call them 'species' or 'taxa'.
-
-Updates to assignments:
-
-* assignment8.md - In Question 2 or 3, have them add in the columns for 'YEAR', 'MONTH', 'DAY', and 'DAY_OF_YEAR'. They will need these in Questions 3 and 4. 
-
-
-Packages
------
-
-Data analysis
-
-* NumPy -- the fundamental package for scientific computing with Python
-* Pandas -- data structures and data analysis tools; enables you to carry out your entire data analysis workflow in Python without having to switch to a more domain-specific language like R; Series and DataFrame are based on Python dictionaries and NumPy arrays
-* MatPlotLib -- MATLAB clone for Python
-* [bokeh](http://bokeh.pydata.org/en/latest/) -- interactive data visualizations for the web
-* [mpld3](http://mpld3.github.io) -- interactive data visualizations for the web
-* [seaborn](http://stanford.edu/~mwaskom/software/seaborn/index.html) -- visualization for MatPlotLib
-
-Application-specific
-
-* Scikit-Bio -- underlying codebase for QIIME, replacement for PyCogent
-* Biopython -- has some useful code, but the Knight Lab hates it
-* QIIME -- microbiome and statistical analysis package
-* Others: math, collections, operator, future, csv
-* Sympy -- symbolic mathematics
-* Statsmodels -- to explore data, estimate statistical models, and perform statistical tests
-* Scikit-learn -- tools for data mining and data analysis (including machine learning)
-* PyQt -- Python bindings for the Qt cross-platform graphical user interface toolkit (or the equivalent Pyside)
-* Spyder -- interactive development environment with advanced editing, interactive testing, debugging and introspection features
-
-
-Glossary
------
-
-**object** -- Pretty much everything in Python is an object: numbers, strings, data structures, functions, classes, modules. Every object exists in its own "box" called a _Python object_.
-
-**type** -- Each object has an associated type (e.g. string or function) and internal data. Entering `type(X)` will give the type of `X`.
-
-**variable** -- Name for object within a particular namespace. The type information and internal data (value) of the object is stored in the object itself.
-
-**attributes** -- Other Python objects stored inside an object. For example, if you have an object stored as variable `x`, then the anything after the dot in `x._____` is an attribute.
-
-**methods** -- A common type of attribute, methods are functions attached to an object with access to the object's internal data. They always contain parentheses afterward, with or without arguments. For example, if you set `x = 'abc'` then `x.upper()` will return `'ABC'`.
-
-**function** 
-
-**module** -- A module is any Python file without the `.py` extension.
-
-**class** -- A new type of Python object that you create.
-
-**package** -- A package is a directory of modules including an additional `__init__.py` file ("library" is a generic term sometimes used interchangeably with "package").
-
-**booleans** -- TRUE, FALSE
-
-**control structures** -- if, then, else, while, with, break, pass, try
-
-
-From Corey (integrate or separate)
------
-
-[Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/html/index.html)
-
-[Google's Python Exercises](https://developers.google.com/edu/python/) - I would assign the exercises for lists and strings.  
-
-
-Survey of Tools for Data Science and Visualization:
-
-* [Apache Mahout](https://mahout.apache.org/)
-* [Apache Pig](https://pig.apache.org/)
-* GraphViz / [Gephi](http://gephi.github.io/) / [d3.js](http://d3js.org/)
-* Command-line tools: grep, sed, awk, uniq, curl, etc.
-* Python with libraries. (SciPy, NumPy, PANDAS, matplotlib, networkx)
-* [Natural Language Toolkit](http://www.nltk.org/)
-
-
-Potential exercises:
-
-* [Scraping Data] Have students download data from Twitter, Facebook, Yelp, Common Crawl (web), MovieLens, LastFM (music) or other social data.
-* [Mahout] Collect some works from The Gutenberg Project.  Have students create term-vectors and run cosign similarity to see which works are more similar.
-* [Pig] [Analyze a weblog](http://blogs.ischool.berkeley.edu/i290-abdt-s12/assignments/assignment-1/) - A very real-world example. 
-* [GraphViz / Gephi] [Graph Visualization](http://blogs.ischool.berkeley.edu/i290-abdt-s12/files/2012/10/Assignment3.pdf)  - Make awesome graphs. 
-* [NLTK] - Train an NLTK Name Extraction classifier on a new entity type and (for example, artist names from a music web site). Evaluate results in precision and recall.
-
--->
-
 
