@@ -6,13 +6,13 @@ Quick links: [📁 lessons](https://github.com/cuttlefishh/python-for-data-analy
 
 Software covered:
 
+* Python 3
 * IPython environment and Jupyter notebooks
 * Conda for package management and virtual environments
-* Python 3
 
 Course topics include:
 
-* Introduction to/review of the command line
+* The UNIX command line
 * Fundamentals of Python and its data types
 * Data analysis packages Numpy and Pandas
 * Plotting packages Matplotlib and Seaborn
@@ -28,7 +28,7 @@ Course topics include:
 * Lecturer at Scripps Institution of Oceanography, Assistant Professor at NOAA Northern Gulf Institute
 * Email: luke@ucsd.edu, luke.thompson@noaa.gov
 * Office hours by appointment
-* Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile + CV](https://swfsc.noaa.gov/staff.aspx?id=22360)
+* Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile](https://swfsc.noaa.gov/staff.aspx?id=22360)
 
 ## Meetings
 
@@ -49,7 +49,7 @@ Course topics include:
 * [_Learning Python_](http://proquest.safaribooksonline.com/book/programming/python/9781449355722) 3rd Edition by Mark Lutz (O'Reilly) --  Optional; more traditional introduction to Python as a computer language.
 * [_Python for Data Analysis_](http://proquest.safaribooksonline.com/book/programming/python/9781491957653) 2nd Edition by Wes McKinney (O'Reilly) -- Manual focused on Pandas, the popular Python package for data analysis, by its creator. GitHub page: <https://github.com/wesm/pydata-book>.
 
-Note: O'Reilly Media titles are free to UCSD affiliates with [Safari Books Online](http://proquest.safaribooksonline.com/?uicode=ucsd).
+*O'Reilly Media titles are free to UCSD affiliates with [Safari Books Online](http://proquest.safaribooksonline.com/?uicode=ucsd).*
 
 ## Additional Materials
 
@@ -117,19 +117,17 @@ Requirements:
 
 ### Grading
 
-There are 100 points total for the quarter:
+There are 100 points total possible for the course:
 
 * Assignments: 72 points (9 assignments x 8 points each)
 * Final project: 20 points
 * Participation: 8 points
 
-There are no midterm or final exams.
+*There are no midterm or final exams.*
 
 ## Schedule Overview
 
-_Schedule is subject to change._
-
-The course consists of 20 lessons. It was originally taught as 2 lessons per week for 10 weeks, but the material can be covered at any pace.
+The course consists of 20 lessons. As a class, it is taught as two lessons per week for 10 weeks, but the material can be covered at any pace.
 
 Lessons 1-3 will be an introduction to the command line. By the end of this tutorial, everyone will be familiar with basic Unix commands.
 
@@ -141,8 +139,7 @@ Lessons 19-20 conclude the course with two skills useful in developing code: wri
 
 ## Lesson Schedule
 
-* Course material is available as .md or .ipynb files by clicking on the lesson number below.
-* In addition to doing the readings, please follow along writing code (this is integral to the Shaw readings), and do any Study Drills (Shaw) and Chapter Quizzes (Lutz).
+Lessons are available as .md or .ipynb files by clicking on the lesson numbers below. Readings should be completed while typing out the code (this is integral to the Shaw readings) and doing any Study Drills (Shaw) and Chapter Quizzes (Lutz).
 
 Lesson	|	Title	|	Readings	|	Topics	|	Assignment
 -----	|	-----	|	-----	|	-----	|	-----
