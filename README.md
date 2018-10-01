@@ -82,10 +82,11 @@ Course topics include:
 
 ## Course Philosophy
 
-1. Just like anything else, you learn Python by doing. With a few exceptions, you're not going to break your computer by trying new commands. So just try it and see what happens. Print output of commands. Print values of variables. Kick the thing until it works.
-2. When you don't know how to do something, google it. You'll be amazed by the solutions you'll find to do _thing x_ if you google "python thing x".
-3. Learn keyboard shortcuts, as many as you can. Tab-complete in the shell and IPython/Jupyter!
-4. Remember Zed's sage wisdom:
+1. You learn Python by doing, just like anything else. With a few exceptions, you're not going to break your computer by trying new commands. So just try it and see what happens. Print output of commands. Print values of variables. Kick the thing until it works.
+2. Resist the urge to get frustrated and blame the computer when your code doesn't run. Computers are deterministic machines; it's almost always your fault. But that's OK! Your computer will give you error messages that describe what went wrong. Read them and try to understand them.
+3. When you don't know how to do something, google it. You'll be amazed by the solutions you'll find to do _thing x_ if you google "python thing x".
+4. Learn keyboard shortcuts, as many as you can. Tab-complete in the shell and IPython/Jupyter!
+5. Remember Zed's sage wisdom:
 	* Practice every day.
 	* Don't over-do it. Slow and steady wins the race.
 	* It's alright to be totally lost at first.
