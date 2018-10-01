@@ -26,7 +26,7 @@ Course topics include:
 
 * Luke Thompson, Ph.D.
 * Lecturer at Scripps Institution of Oceanography, Assistant Professor at NOAA Northern Gulf Institute
-* Email: luke@ucsd.edu, luke.thompson@noaa.gov
+* Email: luke@ucsd.edu
 * Office hours by appointment
 * Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile](https://swfsc.noaa.gov/staff.aspx?id=22360)
 
