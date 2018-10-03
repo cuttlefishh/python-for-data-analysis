@@ -1,6 +1,8 @@
 ## Lesson 2 - Command Line Part I
 
-Skills you will learn in this lesson:
+### Overview
+
+#### Skills you will learn in this lesson
 
 * Moving between directories
 * Absolute and relative paths
@@ -10,55 +12,64 @@ Skills you will learn in this lesson:
 * GUI and command-line text editors
 * Setting up your bash environment
 
+#### A note about operating systems
+
+This tutorial works best if you are using the Bash shell. Linux and macOS come standard with Bash, which you can access in the Terminal application. Windows PowerShell uses the .NET framework, which is not Bash. For Windows users, you have several options:
+
+1. Best option: Install [Git Bash](https://gitforwindows.org) and use the Bash shell that comes with it. This is fast.
+2. Next best option: Install a Linux virtual machine like [VirtualBox](https://www.virtualbox.org) and use the Terminal that comes with it. This takes more time but gives you access to a virtual Linux machine on your PC.
+3. Last resort: Use Windows PowerShell. This has some functionality, as you saw in Appendix A of Shaw. But many of the commands below will not work, including `cd` (by itself), `cd -`, `touch`, `cat` (try `type` or a text editor), `head`, `tail`, and others.
+
 ### Basic commands
 
 #### Moving between directories
 
-* `pwd` -- print working directory
-* `ls` -- list contents of working directory
-* `cd DIRECTORY` -- change to directory
-* `cd` -- change to home directory
-* `cd -` -- change to previous directory
+* `pwd` — print working directory
+* `ls` — list contents of working directory
+* `cd DIRECTORY` — change to directory
+* `cd ~` or `cd` — change to home directory
+* `cd -` — change to previous directory
 
 #### Absolute and relative paths
 
-* `.` -- current directory
-* `..` -- one directory up
-* `../..` -- two directories up
-* `/` -- root directory
-* `~` -- home directory
+* `.` — current directory
+* `..` — one directory up
+* `../..` — two directories up
+* `/` — root directory
+* `~` — home directory
 
 #### Creating, moving, and removing files and directories
 
-* `mkdir DIRECTORY` -- make directory
-* `rmdir DIRECTORY` -- remove empty directory
-* `touch FILE` -- create an empty file or change file modification time
-* `cat FILE` -- print contents of file
-* `cat > FILE` -- write to file
-* `cat >> FILE` -- append to file
-* `cp FILE1 FILE2` -- copy file
-* `mv FILE1 FILE2` -- move file
-* `rm FILE` -- remove file
-* `ln -s FILE LINK` -- make a symbolic link
+* `mkdir DIRECTORY` — make directory
+* `rmdir DIRECTORY` — remove empty directory
+* `touch FILE` — create an empty file or change file modification time
+* `cat FILE` — print contents of file
+* `cat FILE1 FILE2 > FILE3` — combine two files into third file
+* `cat > FILE` — write to file
+* `cat >> FILE` — append to file
+* `cp FILE1 FILE2` — copy file
+* `mv FILE1 FILE2` — move file
+* `rm FILE` — remove file
+* `ln -s FILE LINK` — make a symbolic link
 
 #### Investigating text files
 
-* `less FILE` -- view a text file
-* `head FILE` -- first 10 lines of file
-* `tail FILE` -- last 10 lines of file
-* `wc FILE` -- count the words and characters in a file
-* `open FILE` -- open a file using default program (on a Mac)
-* `file FILE` -- get the file type for file(s)
-* `grep REGEX FILE` -- search a text file for a string or regular expression
+* `less FILE` — view a text file
+* `head FILE` — first 10 lines of file
+* `tail FILE` — last 10 lines of file
+* `wc FILE` — count the words and characters in a file
+* `open FILE` — open a file using default program (on a Mac)
+* `file FILE` — get the file type for file(s)
+* `grep REGEX FILE` — search a text file for a string or regular expression
 
 #### Working with commands and processes
 
-* `man COMMAND` -- display manual page of command if it exists
-* `help COMMAND` -- display help description of command if it exists
-* `which COMMAND` -- show location of command
-* `history` -- display past commands
-* `top` -- display current processes
-* `exit` -- close the current session
+* `man COMMAND` — display manual page of command if it exists
+* `help COMMAND` — display help description of command if it exists
+* `which COMMAND` — show location of command
+* `history` — display past commands
+* `top` — display current processes
+* `exit` — close the current session
 
 ### Text editors
 
@@ -72,9 +83,9 @@ A great way to document your work is using Markdown, a simple markup style. It i
 
 For small jobs or if you want to stay inside the terminal, there are other useful programs. Note: `cat` is only useful for creating very basic files, or starting files and finishing them in a proper text editor.
 
-* `nano FILE` -- nano is the most basic text editor (see Appendix: The Nano Text Editor at end of this lesson)
-* `emacs FILE` -- emacs is a popular full-featured text editor controlled by keystrokes
-* `vim FILE` -- vim or vi is a popular competitor to emacs that loads faster 
+* `nano FILE` — nano is the most basic text editor (see Appendix: The Nano Text Editor at end of this lesson)
+* `emacs FILE` — emacs is a popular full-featured text editor controlled by keystrokes
+* `vim FILE` — vim or vi is a popular competitor to emacs that loads faster 
 
 ### Setting up your bash environment
 
