@@ -97,7 +97,7 @@ Course topics include:
 
 ### Weekly Assignments
 
-Weekly take-home assignments will follow the course schedule, reinforcing skills with exercises to analyze and visualize scientific data. Assignments will given out on Thursdays and will be due the following Thursday, using TritonEd. Assignments are worth 8 points each and will be graded on effort, completeness, and accuracy.
+Weekly take-home assignments will follow the course schedule, reinforcing skills with exercises to analyze and visualize scientific data. Assignments will given out on Wednesdays and will be due the following Wednesday, using TritonEd. Assignments are worth 8 points each and will be graded on effort, completeness, and accuracy.
 
 ### Final Project
 
