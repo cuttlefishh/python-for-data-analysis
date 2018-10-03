@@ -1,8 +1,8 @@
 ## Lesson 3 - Command Line Part II
 
-### Overview
+### Overview of today's lesson
 
-#### Skills you will learn in this lesson
+#### Intermediate commands and skills
 
 * Bash variables and commands
 * Executing bash scripts and dot-files

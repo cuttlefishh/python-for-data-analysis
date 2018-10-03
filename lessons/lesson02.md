@@ -1,17 +1,5 @@
 ## Lesson 2 - Command Line Part I
 
-### Overview
-
-#### Skills you will learn in this lesson
-
-* Moving between directories
-* Absolute and relative paths
-* Creating, moving, and removing files and directories
-* Investigating text files
-* Working with commands and processes
-* GUI and command-line text editors
-* Setting up your bash environment
-
 #### A note about operating systems
 
 This tutorial works best if you are using the Bash shell. Linux and macOS come standard with Bash, which you can access in the Terminal application. Windows PowerShell uses the .NET framework, which is not Bash. For Windows users, you have several options:
@@ -19,6 +7,29 @@ This tutorial works best if you are using the Bash shell. Linux and macOS come s
 1. Best option: Install [Git Bash](https://gitforwindows.org) and use the Bash shell that comes with it. This is fast.
 2. Next best option: Install a Linux virtual machine like [VirtualBox](https://www.virtualbox.org) and use the Terminal that comes with it. This takes more time but gives you access to a virtual Linux machine on your PC.
 3. Last resort: Use Windows PowerShell. This has some functionality, as you saw in Appendix A of Shaw. But many of the commands below will not work, including `cd` (by itself), `cd -`, `touch`, `cat` (try `type` or a text editor), `head`, `tail`, and others.
+
+### Overview of today's lesson
+
+#### Setup
+
+* Open a shell in Terminal (Mac/Linux) or GitBash (Windows)
+* Create a working directory for the course, and a lessons directory inside that
+* Copy the day's lesson from GitHub to your lessons folder
+
+#### Basic commands and skills
+
+* Moving between directories
+* Absolute and relative paths
+* Creating, moving, and removing files and directories
+* Investigating text files
+* Working with commands and processes
+* Tab-completion of commands and paths
+* GUI and command-line text editors
+
+#### Customization
+
+* Customize your Finder window (or similar on non-Mac)
+* Customize up your Bash environment
 
 ### Basic commands
 
