@@ -55,9 +55,9 @@ This tutorial works best if you are using the Bash shell. Linux and macOS come s
 * `rmdir DIRECTORY` — remove empty directory
 * `touch FILE` — create an empty file or change file modification time
 * `cat FILE` — print contents of file
-* `cat > FILE` — write to file
+* `cat > FILE` — write to file (warning: this will overwrite the file if it exists)
+* `cat >> FILE` — append to file (safer alternative to above in some cases)
 * `cat FILE1 FILE2 > FILE3` — combine two files into third file
-* `cat >> FILE` — append to file
 * `cp FILE1 FILE2` — copy file
 * `mv FILE1 FILE2` — move file
 * `rm FILE` — remove file
@@ -76,8 +76,7 @@ This tutorial works best if you are using the Bash shell. Linux and macOS come s
 #### Working with commands and processes
 
 * `man COMMAND` — display manual page of command if it exists
-* `COMMAND --help` -- display usage information
-* `help COMMAND` — display help description of command if it exists
+* `COMMAND --help` — display usage information
 * `which COMMAND` — show location of command
 * `history` — display past commands
 * `top` — display current processes
@@ -103,7 +102,7 @@ For small jobs or if you want to stay inside the terminal, there are other usefu
 
 There are several things you can do to set up your bash environment, which is what you see when you use the terminal (command line). You put these commands in a file called `.bash_profile` (or `.bashrc` or `.profile`) in your home directory. Yes, that's a period at the beginning of the file, and the file is called a dot-file, which is a system file your computer uses to customize your shell.
 
-As an option, you can add the lines below to your `.bash_profile` using a text editor like Nano or Atom. Be careful to not overwrite what's already there, and to not add any extra commands or stray text. It's a good idea to save a copy of your existing `.bash_profile` with a different name as a backup.
+Shown below are some commands that I have put in my `.bash_profile`. You might want to use some of these to customize your terminal. In Assignment 1, you will have the chance to edit your `.bash_profile` using a text editor like Nano or Atom. Be careful to not overwrite what's already there, and to not add any extra commands or stray text. It's a good idea to save a copy of your existing `.bash_profile` with a different name as a backup.
 
 ```	
 # customize prompt with color and pwd
