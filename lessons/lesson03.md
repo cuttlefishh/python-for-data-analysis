@@ -18,9 +18,8 @@
 
 * `A=0` — assign a variable
 * `echo VARIABLE` — output the value of a variable or expression
-* `$PATH` — your path variable
+* `$PATH` — your path variable (try: `echo -e ${PATH//:/'\n'}`)
 * `$SHELL` — your current shell
-* `$RANDOM` — a random number
 * `$PPID` — process ID
 * `$HOME` — your home directory (another name for `~` or `/Users/you`)
 
@@ -51,15 +50,19 @@ Any of the commands we have used from the command line (the bash prompt `$`) can
 
 ### More commands
 
-#### Parsing files
+We will test some of these commands with the example file `survey_scores_2015_T.csv`.
+
+#### Parsing and sorting files
 
 * `cut -d "," -f 5- FILE` — output 5th field through end using comma field delimiter
 * `sed 's/FIND/REPLACE/g'` — replace text in a file
 * `perl -e 's/FIND/REPLACE/g'` — run perl commands in the command line (advanced)
+* `sort FILE` - sort a file alphabetically
+* `uniq FILE` - get the unique lines in a sorted file
 
 #### Working with input and output
 
-* `|` — pipe output from one command to another (e.g., `sort | uniq`)
+* `|` — pipe output from one command to another (e.g., `sort | uniq | wc`)
 * `>` — redirect (write) to file
 * `<` — get output of file (other type of redirect)
 * `` `COMMAND` `` — pass output of a command (e.g., in a for loop)
@@ -75,6 +78,8 @@ Any of the commands we have used from the command line (the bash prompt `$`) can
 ### Control keys
 
 Various keyboard shortcuts help you quickly and powerfully control the terminal. This section is adapted from [The Best Keyboard Shortcuts for Bash (aka the Linux and macOS Terminal)](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/) by Lowell Heddings.
+
+Make sure you know which is the `Alt` or `Meta` key on your computer. On a Mac, you can do this by setting your Terminal preferences to "Use Option as Meta key".
 
 #### Enabling command-line editing
 
