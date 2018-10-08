@@ -66,8 +66,9 @@ This tutorial works best if you are using the Bash shell. Linux and macOS come s
 #### Investigating text files
 
 * `less FILE` — view a text file
-* `head FILE` — first 10 lines of file
-* `tail FILE` — last 10 lines of file
+* `head -n N FILE` — first N lines of file
+* `tail -n N FILE` — last N lines of file
+* `tail -n +S FILE` – last lines of file starting at line S
 * `wc FILE` — count the words and characters in a file
 * `open FILE` — open a file using default program (on a Mac)
 * `file FILE` — get the file type for file(s)

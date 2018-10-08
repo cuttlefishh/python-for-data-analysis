@@ -34,10 +34,10 @@ do
     echo $i
 done
 
-if [ -d "test" ]; then
+if [ -d "temp" ]; then
     echo "Directory exists."
 else 
-    mkdir test
+    mkdir temp
 fi
 ```
 
@@ -55,8 +55,8 @@ We will test some of these commands with the example file `survey_scores_2015_T.
 #### Parsing and sorting files
 
 * `cut -d "," -f 5- FILE` — output 5th field through end using comma field delimiter
-* `sed 's/FIND/REPLACE/g'` — replace text in a file
-* `perl -e 's/FIND/REPLACE/g'` — run perl commands in the command line (advanced)
+* `sed 's/FIND/REPLACE/g' FILE ` — replace text in a file
+* `perl -e 's/FIND/REPLACE/g' FILE ` — run perl commands in the command line (advanced)
 * `sort FILE` - sort a file alphabetically
 * `uniq FILE` - get the unique lines in a sorted file
 
