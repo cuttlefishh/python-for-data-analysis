@@ -112,7 +112,7 @@ As an alternative to editing your `.bash_profile` directly, you can edit (or cre
 3. Past this text at the top of your `.bash_profile`:
 ```
 if [ -r ~/.bashrc ]; then
-source ~/.bashrc;
+    source ~/.bashrc;
 fi
 ```
 4. Save `.bash_profile` and exit nano.
