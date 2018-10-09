@@ -1,8 +1,10 @@
 ### Assignment 1 - Basic Shell Commands
 
-Execute these commands in your terminal. Copy and paste the commands and output (i.e., your terminal session) to a text file, then save and submit this text file as your completed assignment. You may use plain text (.txt) or Markdown (.md) format. Please name your file `1_first_last.txt` or `1_first_last.md` (substitute your first and last name).
+Do the exercises below. *How to provided your answer is specificed in italics.* Copy your answer to a text file then save and submit this text file as your completed assignment. You may use plain text (.txt) or Markdown (.md) format. Please name your file `1_first_last.txt` or `1_first_last.md` (substitute your first and last name).
 
 #### A. Basic commands
+
+*Copy your terminal commands and output as your answers.*
 
 1. Navigate to your working directory for the class.
 2. Within that directory, create a temporary test directory.
@@ -12,25 +14,31 @@ Execute these commands in your terminal. Copy and paste the commands and output 
 6. Copy one of the files.
 7. Delete one of the files.
 8. Delete the temporary directory.
+9. Get a list of the commands you've typed already.
+10. See which processes are running on your computer.
 
 #### B. Working with commands
 
-1. Learn more about a command from class using a Unix command.
-2. Learn more about a command from class using a Google search.
-3. Find out where the commands `mv` and `cp` are located on your computer.
-4. Get a list of the commands you've typed already.
-5. See which processes are running on your computer.
-6. What happens when you type `Tab` in the middle of typing a command?
-7. What happens when you type `Tab` in the middle of typing a file name or path?
+*Write your answers.*
+
+1. Pick a command from class. Using a Unix command to find out, what does this command do?
+2. Pick a command from class. Using a Google search to find out, what does this command do?
+3. Where are the commands `mv` and `cp` are located on your computer?
+4. What happens when you type `Tab` in the middle of typing a command?
+5. What happens when you type `Tab` in the middle of typing a file name or path?
 
 #### C. Setting up your bash environment
 
+*No answers need be submitted.*
+
 1. Download a text editor such as [Atom](https://atom.io) or [Sublime Text](https://www.sublimetext.com) if you haven't already.
-2. Using your text editor, customize your terminal by editing the file `.bash_profile` in your home directory.
+2. Using your text editor, customize your terminal by editing the file `.bash_profile` in your home directory. Alternatively, you can edit the file `.bashrc` in your home directory and have it automatically sourced by `.bash_profile` (see Lesson 2).
 3. Source your bash profile file with the command `source ~/.bash_profile`.
 4. Open a new terminal to make sure it automatically sources your bash profile file. You may have to change the preferences in the Terminal app.
 
 #### D. More commands
+
+*Copy your terminal commands and output as your answers.*
 
 1. Print the first 5 lines of a text file.
 2. Print the last 10 commands you entered.
@@ -43,6 +51,8 @@ Execute these commands in your terminal. Copy and paste the commands and output 
 
 #### E. Paths and variables
 
+*Copy your terminal commands and output as your answers.*
+
 1. Navigate to root and home directories using absolute paths.
 2. Navigate to root and home directories using relative paths.
 3. Store an integer as a shell variable then print it.
@@ -53,5 +63,7 @@ Execute these commands in your terminal. Copy and paste the commands and output 
 
 #### F. Executing bash scripts and dot-files
 
+*Copy the text of your bash script and the terminal output as your answers.*
+
 1. Write a bash script that uses the commands `mkdir`, `cat`, `mv`, `echo`, and a `for` loop.
-2. Execute you bash script using the terminal.
+2. Execute your bash script using the terminal.

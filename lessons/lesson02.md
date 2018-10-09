@@ -103,7 +103,25 @@ For small jobs or if you want to stay inside the terminal, there are other usefu
 
 There are several things you can do to set up your bash environment, which is what you see when you use the terminal (command line). You put these commands in a file called `.bash_profile` (or `.bashrc` or `.profile`) in your home directory. Yes, that's a period at the beginning of the file, and the file is called a dot-file, which is a system file your computer uses to customize your shell.
 
-Shown below are some commands that I have put in my `.bash_profile`. You might want to use some of these to customize your terminal. In Assignment 1, you will have the chance to edit your `.bash_profile` using a text editor like Nano or Atom. Be careful to not overwrite what's already there, and to not add any extra commands or stray text. It's a good idea to save a copy of your existing `.bash_profile` with a different name as a backup.
+In Assignment 1, you will have the chance to edit your `.bash_profile` using a text editor like Nano or Atom. Be careful to not overwrite what's already there, and to not add any extra commands or stray text. It's a good idea to save a copy of your existing `.bash_profile` with a different name as a backup.
+
+As an alternative to editing your `.bash_profile` directly, you can edit (or create and then edit) your `.bashrc` file and have `.bash_profile` source this file whenever it runs. To do this:
+
+1. Type `cd` to go to your home directory.
+2. Type `nano .bash_profile` (or `sudo nano .bash_profile` if you need root access).
+3. Past this text at the top of your `.bash_profile`:
+```
+if [ -r ~/.bashrc ]; then
+source ~/.bashrc;
+fi
+```
+4. Save `.bash_profile` and exit nano.
+5. Type `nano .bashrc`.
+6. Add any of the commands you want to .bashrc instead of .bash_profile. This way, you won't have to use sudo every time you want to customize your shell.
+
+You can learn more about `.bash_profile` and `.bashrc` on macOS [here](https://scriptingosx.com/2017/04/about-bash_profile-and-bashrc-on-macos/).
+
+Shown here are some commands that you might want to put in your `.bash_profile` or `.bashrc` to customize your terminal:
 
 ```	
 # customize prompt with color and pwd
