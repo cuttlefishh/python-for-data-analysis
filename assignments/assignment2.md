@@ -2,7 +2,9 @@
 
 Work through these tasks. *How to provided your answer is specificed in italics.* Turn in a single text file of your answers. Please name your file `2_first_last.txt` or `2_first_last.md` (substitute your first and last name).
 
-Note: This assignment assumes you have already installed [Miniconda 3](https://conda.io/miniconda.html) (Miniconda for Python 3) and created an environment called `python3` (we did this in Lesson 4). If you installed Miniconda 2 (Miniconda for Python 2), you should probably delete it and install Miniconda 3. Miniconda 3 will still let you create environments using Python 2 if you need to.
+Note 1: This assignment assumes you have already installed [Miniconda 3](https://conda.io/miniconda.html) (Miniconda for Python 3) and created an environment called `python3` (we did this in Lesson 4). If you installed Miniconda 2 (Miniconda for Python 2), you should probably delete it and install Miniconda 3. Miniconda 3 will still let you create environments using Python 2 if you need to.
+
+Note 2: This assignment assumes you have completed Lesson 4. Since we ran out of time to complete the Python Crash Course in class, please go through this on your own. You could also watch last year's YouTube videos from Lesson 4.
 
 #### A. Working with Conda
 
