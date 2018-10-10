@@ -1,10 +1,12 @@
-### Assignment 2 - Bash, Conda, IPython, and Jupyter
+### Assignment 2 - Conda, IPython, and Jupyter
 
-Work through these tasks. For section A, copy the commands you executed for this section and their output. For sections B and C, you don't need to turn in any commands or code; just provide your answers to the questions. Turn in a single text file of your answers. Please name your file `2_first_last.txt` or `2_first_last.md` (substitute your first and last name).
+Work through these tasks. *How to provided your answer is specificed in italics.* Turn in a single text file of your answers. Please name your file `2_first_last.txt` or `2_first_last.md` (substitute your first and last name).
 
 Note: This assignment assumes you have already installed [Miniconda 3](https://conda.io/miniconda.html) (Miniconda for Python 3) and created an environment called `python3` (we did this in Lesson 4). If you installed Miniconda 2 (Miniconda for Python 2), you should probably delete it and install Miniconda 3. Miniconda 3 will still let you create environments using Python 2 if you need to.
 
 #### A. Working with Conda
+
+*Copy your terminal commands and output as your answers.*
 
 1. Make a conda environment called `python2` that's identical to your `python3` environment except it uses Python 2.
 2. Practice activating and deactivating conda environments.
@@ -14,12 +16,18 @@ Note: This assignment assumes you have already installed [Miniconda 3](https://c
 6. Optional: If you are familiar with R, create an environment and install the R kernel using the instructions [here](https://www.continuum.io/blog/developer/jupyter-and-conda-r).
 7. Optional: If you are familiar with QIIME, create an environment and install QIIME using the instructions [here](http://qiime.org/install/install.html).
 
-#### B. Python and IPython command-line interpreter
+#### B. IPython command-line interpreter and Python basics
 
-1. Launch your `python3` conda environment and find out which version of Python you are using. Then try to run the commands `print 'Hello, world'` and`print('Hello, world')`. Do they both work?
-2. Launch your `python2` conda environment and find out which version of Python you are using. Then try to run the commands `print 'Hello, world'` and`print('Hello, world')`. Do they both work?
+*Write your answers to #1 and #2. Copy your terminal commands and output as your answers for #3.*
 
-#### C. Working with Jupyter notebooks and Python basics
+1. Activate your `python2` conda environment and find out which version of Python you are using. Then try to run the commands `print 'Hello, world'` and`print('Hello, world')`. Do they both work?
+2. Activate your `python3` conda environment and find out which version of Python you are using. Then try to run the commands `print 'Hello, world'` and`print('Hello, world')`. Do they both work?
+3. Pick 3 of the 8 sections in Data Types we covered in Lesson 4: booleans, numbers, strings, lists, tuples, arrays, sets, and dictionaries. Using the IPython interpreter in your `python3` environment, type and run the commands we used in those sections of Lesson 4.
 
-1. Launch your `python3` conda environment and then launch the Jupyter notebook server. Which kinds of notebooks can you create? Open a Terminal within the notebook environment; what is your Python version?
-2. Launch your `python2` conda environment and then launch the Jupyter notebook server. Which kinds of notebooks can you create? Open a Terminal within the notebook environment; what is your Python version?
+#### C. Working with Jupyter notebooks
+
+*Write your answers to #1 and #2. No need to turn anything in for #3.*
+
+1. Activate your `python2` conda environment and then launch the Jupyter notebook server. Which kinds of notebooks can you create? Open a Terminal within the notebook environment; what is your Python version?
+2. Activate your `python3` conda environment and then launch the Jupyter notebook server. Which kinds of notebooks can you create? Open a Terminal within the notebook environment; what is your Python version?
+3. Pick 1 of the 4 sections in Loops and Control Structures we covered in Lesson 4: boolean and comparison operations, if tests, while loops, and for loops. Using a Jupyter notebook in your `python3` environment, type the code from that section in one or more cells, then execute it. Put a header above the code cell using a Markdown cell. Practice creating, deleting, and moving cells using the keyboard shortcuts.
