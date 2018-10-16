@@ -15,7 +15,7 @@ Note 2: This assignment assumes you have completed Lesson 4. Since we ran out of
 3. Use `conda install` and `pip install` to install additional packages to your environment.
 4. List your conda environments.
 5. List the packages installed in one of your environments.
-6. Optional: If you are familiar with R, create an environment and install the R kernel using the instructions [here](https://www.continuum.io/blog/developer/jupyter-and-conda-r).
+6. Optional: If you are familiar with R, create an environment and install the R kernel using the instructions [here](https://irkernel.github.io).
 7. Optional: If you are familiar with QIIME, create an environment and install QIIME using the instructions [here](http://qiime.org/install/install.html).
 
 #### B. IPython command-line interpreter and Python basics
