@@ -5,17 +5,15 @@ Complete the tasks below. Please turn in a single Jupyter notebook named `4_firs
 **1.** Lists and loops.
 
 * Create a list of 10 random integers in the range of -100 to 100. 
-* Loop through that list using a for loop. 
-* Put the non-negative (positive or zero) integers into a new list. 
-* If negative integers are encountered, print a message saying that the value is negative and printing that value.
+* Loop through that list using a for loop. Put the non-negative (positive or zero) integers into a new list. If negative integers are encountered, print a message saying that the value is negative and printing that value.
 
 **2.** Functions, lists, and loops.
 
-* Write a function that does what you did in #1 but with the following differences: 
-* The input list can be any list of numbers.
-* The function should take as an argument some cutoff for being included in the new list (e.g., if you want non-negative integers, the criterion would be >=0 and the cutoff would be 0).
-* The printed message for failing to be included should also reflect this user-defined parameter.
-* The new list should be returned by the function.
+* Write a function that does what you did in Question 1 but with the following differences: 
+    - The input list can be any list of numbers.
+    - The function should take as a parameter a threshold for being included in the new list (e.g., if you want non-negative integers, the threshold would be 0, and the function would check if values are >= to this value).
+    - The printed message for failing to be included should also report the threshold parameter.
+    - The new list should be returned by the function.
 
 **3.** Dictionaries and list enumeration.
 
