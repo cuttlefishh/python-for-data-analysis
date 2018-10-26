@@ -202,7 +202,7 @@ Modified from Yoshiki Vázquez-Baeza (@ElDeveloper).
 # click the Fork button, which will create a copy or "fork" of the repository (and 
 # a branch, generally master by default)
 
-# create a `python-for-data-analysis` directory in the current directory `~/git` 
+# clone the `python-for-data-analysis` directory in the current directory `~/git` 
 # (replace `myusername` with your username)
 git clone https://github.com/myusername/python-for-data-analysis
 cd python-for-data-analysis
