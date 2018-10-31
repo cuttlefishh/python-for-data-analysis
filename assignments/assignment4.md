@@ -20,7 +20,7 @@ Complete the tasks below. Please turn in a single Jupyter notebook named `4_firs
 * Create a two-dimensional list with 3 'rows' and 4 'columns' and a mixture of strings and integers. 
 * Loop through each element of the list and check if each element is a string or an integer. 
 * Save the strings as a dictionary with the index (row, column) as the key and the string as the value.
-* Save the integers as a dictionary with the index (row, column) as the key and the string as the value.
+* Save the integers as a dictionary with the index (row, column) as the key and the integer as the value.
 
 **4.** List comprehension and saving files.
 
