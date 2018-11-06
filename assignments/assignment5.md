@@ -4,7 +4,7 @@ Complete the tasks below. Please turn in a single Jupyter notebook named `5_firs
 
 #### A. Regular expressions in the command line
 
-Setup: Download [scripps_pier_20151110.csv](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/data/scripps_pier_20151110.csv) to your directory `~/sio209/data`, if you haven't already. You will use regular expressions to get information from the file.
+Setup: Download [`scripps_pier_20151110.csv`](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/data/scripps_pier_20151110.csv) to your directory `~/sio209/data`, if you haven't already. You will use regular expressions to get information from the file.
 
 1. Get all the rows with data from 11/10/15 using grep. How would you keep the header line also? (Hint: to get an "or", use `\|` in grep or `|` in egrep.) 
 2. Get all the rows where the third column (pressure) begins with a "3" using grep. (Hint: if you want to match a period `.` and not any character, you can escape it with `\.`.)
@@ -28,6 +28,6 @@ Setup: Import the `re` module.
 
 #### D. Pandas basics
 
-1. Read in the csv file scripps_pier_20151110.csv as a Pandas DataFrame with the index as the Date column and the column headers from the first row of that file.
-2. Print all the date/times from 11/10/15. Hint: you can get the indexes from the DataFrame, convert it to a list, then iterate over that list (using a for loop or list comprehension), and then use `re.match` or `re.search`.
-3. Print all the rows from 11/10/15. Hint: you can use your answer to the exercise you just did but use `.loc` indexing.
+1. Read in the csv file `scripps_pier_20151110.csv` as a Pandas DataFrame with the index as the Date column and the column headers from the first row of that file.
+2. Print all the date/times from 11/10/15. (Hint: you can get the indexes from the DataFrame, convert it to a list, then iterate over that list (using a for loop or list comprehension), and then use `re.match` or `re.search`.)
+3. Print all the rows from 11/10/15. (Hint: you can use your answer to the exercise you just did but use `.loc` indexing.)
