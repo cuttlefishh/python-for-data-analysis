@@ -1,0 +1,8 @@
+subject_id,861167,346538,473138,268370,21801,996203,52398,980220,47263,232211,269629,630741,287626,874782,442558,55926,463808,350184,765427,704952,733358,165235,366626,944438,818177,287628,189753,783121,474873,481858,318480
+computer_has,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+computer_os,Mac,Windows;Unix,Mac,Mac,Mac,Mac,Mac;Windows,Windows,Mac,Mac,Mac,Mac,Mac,Windows;Unix,Windows,Windows,Mac;Windows,Windows,Windows,Mac,Windows,Mac,Windows,Mac,Windows,Mac,Mac;Windows;Unix,Mac,Mac;Unix,Mac,Mac
+score_command,Some,Some,Moderate,Some,Moderate,Some,Some,Some,Moderate,Moderate,Some,None,Some,Moderate,None,Some,Some,Some,Some,Some,Some,None,None,None,Some,Some,Experienced,None,Moderate,Some,Some
+score_r,Some,Some,None,Some,Some,None,None,Moderate,Some,None,Some,None,Moderate,Some,None,Moderate,Some,None,Some,Experienced,None,None,None,None,Moderate,Some,None,Some,Moderate,Moderate,Some
+score_matlab,Some,Moderate,Experienced,None,None,Some,Some,None,None,None,None,Experienced,Some,Some,Experienced,None,Experienced,Some,None,None,None,None,Moderate,Moderate,Moderate,None,Experienced,None,Some,None,None
+score_perl,None,None,None,None,None,None,None,Some,None,None,None,None,Some,None,None,None,None,None,None,None,None,None,None,None,Some,None,None,None,None,None,None
+score_python,Some,Moderate,Moderate,Some,Some,Some,Moderate,None,Some,Moderate,None,Some,None,Moderate,None,None,Some,Moderate,None,Some,Some,None,Moderate,Some,None,None,Some,None,Some,Some,None
