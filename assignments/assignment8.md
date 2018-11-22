@@ -8,8 +8,8 @@ For this assignment, we will use a file containing daily precipitation data in L
 
 #### A. Set up the file
 
-1. Import the csv file as a Pandas DataFrame with default header and index.
-2. Change the 'DATE' column to a timestamps using `pd.datetime()`.
+1. Import the CSV file as a Pandas DataFrame with default header and index.
+2. Change the 'DATE' column to timestamps using `pd.datetime()`. Alternatively, import the csv file with `parse_dates` set to the columns you want to parse as datetime.
 3. What was the maximum daily precipitation (in inches) during this time period and when was it?
 
 #### B. Explore the dataset
