@@ -19,11 +19,12 @@ For this assignment, we will use a file containing daily precipitation data in L
     - Use the `value_counts()` method for each of these columns: 'STATION', 'NAME', 'LATITUDE', 'LONGITUDE', and 'ELEVATION'. There should only be one cateogory for each calculation because all the data come from the same station. To see what output looks like for a more diverse series, use the `value_counts()` method on 'PRCP' and 'PRCP_ATTRIBUTES'.
     - Make a DataFrame with just the columns 'STATION', 'NAME', 'LATITUDE', 'LONGITUDE', and 'ELEVATION' and use the method `drop_duplicates()` to see all the unique combinations of values in those five columns. 
     - Create a groupby object using `groupby('STATION')`, then use the `count()` method on that groupby object to count the number of values for each station.
+3. Create columns for 'YEAR', 'MONTH', 'DAY', and 'DAY_OF_YEAR'. Hint: use attributes such as the `.year` attribute, or use a regular expression, with a list comprehension.
 
 #### C. Plot precipitation versus time
 
 1. Use the Matplotlib function `plot()` to plot 'PRCP' versus 'DATE' as a line.
-2. Plot 'PRCP' versus 'DATE' each year separately as a different colored line, with a legend indicating the year. Hint: You will have to extract the year from the date somehow, for example with the `.year` attribute or a regular expression. You might find it easiest to add new columns for year and day of year.
+2. Plot 'PRCP' versus 'DATE' each year separately as a different colored line, with a legend indicating the year. Hint: use the 'YEAR' column you created in B3.
 3. Go back and recolor the two plots above: pick two colors from ColorBrewer or xkcd and draw your subplots again.
 4. Replot the plots in a subplot with the two sets of axes in a 1x2 formation.
 
