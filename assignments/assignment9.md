@@ -16,11 +16,12 @@ Complete the tasks below. Please turn in a single Jupyter notebook named `9_firs
 
 #### C. Stock data
 
-1. Download historical stock data from the past three years for a stock of your choice (look up the symbol) and the S&P 500 index (symbol: 'SPX'). Use Panads timeseries operations to calculate the start and end dates. Morningstar seems to be the most reliable source of data (see pandas-datareader [docs](https://pydata.github.io/pandas-datareader/stable/remote_data.html)). However, note that using Morningstar will return a hierarchical index, where the first index is the stock symbol and the second index is the date. For example, to download stock data for Qualcomm and Illumina and see the data for Qualcomm, use these commands, where `start` and `end` are Pandas datatime objects: 
+1. Download historical stock data from the past three years for a stock of your choice (eligible symbols: [here](https://iextrading.com/trading/eligible-symbols/)) and the S&P 500 index (symbol: 'SPY'). Use Panads timeseries operations to calculate the start and end dates. IEX is currently a reliable source of data that does not require registration (see [pandas-datareader docs](https://pydata.github.io/pandas-datareader/stable/remote_data.html)). Note that using IEX will return a hierarchical column index, where the first column index is the price type ('open', 'high', 'low', 'close', 'volume') and the second column index is the symbol. You may also want to convert the index from string/object type to datetime type. For example, to download stock data for Qualcomm and Illumina and see the close data for Qualcomm, use these commands, where `start` and `end` are Pandas datatime objects: 
 
         import pandas_datareader as pdr
-        quotes = pdr.data.DataReader(['QCOM', 'ILMN'], 'morningstar', start, end)
-        quotes.loc['QCOM']
+        quotes = pdr.data.DataReader(['QCOM', 'ILMN'], 'iex', start, end)
+        quotes.set_index(pd.to_datetime(quotes.index), inplace=True)
+        quotes['close']['QCOM']
 
 2. Calculate the 52-week high and low for the past year for your stock and for the S&P 500.
 3. Plot the price at close over the past three years of your stock and the S&P 500. Use a dual y-axis (using `twinx` like we learned in the Matplotlib lesson) to display the two prices side by side on separate scales.
@@ -33,4 +34,4 @@ Complete the tasks below. Please turn in a single Jupyter notebook named `9_firs
 
 #### E. Final project proposal
 
-1. The final project description is [here](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/assignments/final_project.md). Write a short paragraph describing your proposed idea for the final project: the dataset you want to use, what analysis you want to do, and what you hope your code will do and look like when you are done. I will provide feedback when I grade your assignment. If you would like feedback sooner, please email me directly.
+The final project description is [here](https://github.com/cuttlefishh/python-for-data-analysis/blob/master/assignments/final_project.md). Write a short paragraph describing your proposed idea for the final project: the dataset you want to use, what analysis you want to do, and what you hope your code will do and look like when you are done. I will provide feedback when I grade your assignment. If you would like feedback sooner, please email me directly.

@@ -24,7 +24,7 @@ For this assignment, we will use a file containing daily precipitation data in L
 #### C. Plot precipitation versus time
 
 1. Use the Matplotlib function `plot()` to plot 'PRCP' versus 'DATE' as a line.
-2. Plot 'PRCP' versus 'DATE' each year separately as a different colored line, with a legend indicating the year. Hint: use the 'YEAR' column you created in B3.
+2. Plot 'PRCP' versus 'DATE' each year separately as a different colored line, with the x-axis going from the beginning to the end of the year, with a legend indicating the year. Hint: use the 'DAY_OF_YEAR' and 'YEAR' columns you created in B3.
 3. Go back and recolor the two plots above: pick two colors from ColorBrewer or xkcd and draw your subplots again.
 4. Replot the plots in a subplot with the two sets of axes in a 1x2 formation.
 
@@ -38,7 +38,7 @@ For this assignment, we will use a file containing daily precipitation data in L
 
 #### E. Pivoting, stacking and unstacking
 
-1. Use pivot_table to produce a new DataFrame, where rows=years and columns=months, containing the mean precipitation of each month.
+1. Use `pivot_table()` to produce a new DataFrame, where rows=years and columns=months, containing the mean precipitation of each month.
 2. Draw a heatmap of years x months where each square is a month colored by mean precipitation. Adjust the colormap to highlight months with heavy precipitation. Hint: Seaborn's `heatmap()` function makes this very easy.
 3. Stack the monthly precipitation table using `stack()`. View the values for 2017. Which month had the most precipitation in 2017? Describe the distribution statistics for all months using `describe()`. How many months are included in this dataset? What was the median month (daily average) value in this time period?
 4. Use `unstack()` to stack precipitation pivot table by month and then year. View the values for December. Which year had the wettest December?
