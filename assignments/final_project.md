@@ -1,6 +1,6 @@
 ### Final Project
 
-Choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis or create a software tool. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas. The best projects will go beyond the examples used in the assignments and class to yield scientific insight via statistical analysis and/or visualization, or to create a useful software product.
+Choose a dataset of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis or create a software tool. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas. The best projects will go beyond the examples used in the assignments and class to yield scientific insight via statistical analysis and/or visualization, or to create a useful software product.
 
 #### Requirements
 

@@ -101,7 +101,7 @@ Weekly take-home assignments will follow the course schedule, reinforcing skills
 
 ### Final Project
 
-You will choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis or create a software tool. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas. The final project is worth 20 points and will be graded on effort, creativity, and fulfillment of the requirements below.
+You will choose a dataset of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis or create a software tool. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas. The final project is worth 20 points and will be graded on effort, creativity, and fulfillment of the requirements below.
 
 Requirements:
 
