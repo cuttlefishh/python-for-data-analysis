@@ -5,13 +5,14 @@ Choose a data set of your own or provided in one of the texts and write a Python
 #### Requirements
 
 * Submit your project as either: a Jupyter notebook (or collection of notebooks), a Python script (or collection of scripts), or a combination of the two.
-* Use `pandas` and at least three (3) additional libraries/packages, such as:
+* Use `pandas` and one or more package from at least three (≥3) of the categories below:
 	- Plotting: `matplotlib`, `seaborn`
-	- Statistics and modeling: `statsmodels`, `scikit-learn`
+	- Interactive visualization: `bokeh`, `pygal`, `plotly`, `mpld3`, `nvd3`
+	- Statistics and modeling: `scipy`, `statsmodels`, `scikit-learn`
 	- Bioinformatics: `scikit-bio`, `biopython`
 	- Climate science: `cdms`, `iris`
-	- Other domain-specific libraries/packages
-* Use at least three (3) user-defined functions.
+	- Any other domain-specific library/package
+* Use at least three (≥3) user-defined functions.
 * Optional: Create user-defined modules and classes for use in your code.
 * Optional: Share your code on GitHub.
 

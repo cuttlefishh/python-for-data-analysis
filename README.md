@@ -101,18 +101,19 @@ Weekly take-home assignments will follow the course schedule, reinforcing skills
 
 ### Final Project
 
-You will choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas. The final project is worth 20 points and will be graded on effort, creativity, and fulfillment of the requirements below.
+You will choose a data set of your own or provided in one of the texts and write a Python program (or set of Python programs or mixture of .ipynb and .py/.sh scripts) to carry out a revealing data analysis or create a software tool. Have a look at Shaw Ex43-52 and McKinney Ch10-12 for more ideas. The final project is worth 20 points and will be graded on effort, creativity, and fulfillment of the requirements below.
 
 Requirements:
 
 * Submit your project as either: a Jupyter notebook (or collection of notebooks), a Python script (or collection of scripts), or a combination of the two.
-* Use `pandas` and at least three (3) additional libraries/packages, such as:
+* Use `pandas` and one or more package from at least three (≥3) of the categories below:
 	- Plotting: `matplotlib`, `seaborn`
-	- Statistics and modeling: `statsmodels`, `scikit-learn`
+	- Interactive visualization: `bokeh`, `pygal`, `plotly`, `mpld3`, `nvd3`
+	- Statistics and modeling: `scipy`, `statsmodels`, `scikit-learn`
 	- Bioinformatics: `scikit-bio`, `biopython`
 	- Climate science: `cdms`, `iris`
-	- Other domain-specific libraries/packages
-* Use at least three (3) user-defined functions.
+	- Any other domain-specific library/package
+* Use at least three (≥3) user-defined functions.
 * Optional: Create user-defined modules and classes for use in your code.
 * Optional: Share your code on GitHub.
 
