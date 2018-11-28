@@ -8,7 +8,7 @@ For this assignment, we will collect and wrangle data about the moons orbiting p
 
 #### A. Data collection and wrangling
 
-1. Find an online resource with data about the moons and planets of the Solar System (sizes and distances).
+1. Find an online resource with data about the moons and planets of the Solar System (sizes and distances). The main ~20 moons would be a good set. (I found a source that had data for 23 moons: Moon, Deimos, Phobos, Callisto, Europa, Ganymede, Io, Dione, Enceladus, Hyperion, Iapetus, Mimas, Phoebe, Rhea, Tethys, Titan, Ariel, Miranda, Oberon, Titania, Umbriel, Nereid, Triton).
 2. Create an Excel spreadsheet `moons.xlsx` with the following information about each moon (suggested column names shown): 
     - Moon name (`moon_name`)
     - Host planet name (`planet_name`)
