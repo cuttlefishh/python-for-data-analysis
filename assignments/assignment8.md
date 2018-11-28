@@ -24,7 +24,7 @@ For this assignment, we will use a file containing daily precipitation data in L
 #### C. Plot precipitation versus time
 
 1. Use the Matplotlib function `plot()` to plot 'PRCP' versus 'DATE' as a line.
-2. Plot 'PRCP' versus 'DATE' each year separately as a different colored line, with the x-axis going from the beginning to the end of the year, with a legend indicating the year. Hint: use the 'DAY_OF_YEAR' and 'YEAR' columns you created in B3.
+2. Plot 'PRCP' versus 'DATE' for each year separately, with each year as a different colored line, the x-axis going from the beginning to the end of the year, and a legend indicating the year. Hint: use the 'DAY_OF_YEAR' and 'YEAR' columns you created in B3.
 3. Go back and recolor the two plots above: pick two colors from ColorBrewer or xkcd and draw your subplots again.
 4. Replot the plots in a subplot with the two sets of axes in a 1x2 formation.
 
