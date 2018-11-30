@@ -9,13 +9,13 @@ For this assignment, we will use a file containing daily precipitation data in L
 #### A. Set up the file
 
 1. Import the CSV file as a Pandas DataFrame with default header and index.
-2. Change the 'DATE' column to timestamps using `pd.datetime()`. Alternatively, import the csv file with `parse_dates` set to the columns you want to parse as datetime.
+2. Change the 'DATE' column to timestamps using `pd.datetime()`. Alternatively, import the CSV file with `parse_dates` set to the columns you want to parse as datetime.
 3. What was the maximum daily precipitation (in inches) during this time period and when was it?
 
 #### B. Explore the dataset
 
 1. We don't need the columns 'SNOW' and 'SNOW_ATTRIBUTES' because there was no recorded snow in the dataset. Delete those columns "in place".
-2. Find out about the sampling stations. Notice that the column values are similar between rows except 'DATE' and 'PRCP'. Explore these other columns using three different commands (we haven't covered them yet, but they are easy to use and you can always google them): 
+2. Find out about the sampling stations. Notice that the column values are similar between rows except 'DATE' and 'PRCP'. Explore these other columns using three different commands (we may not have covered all of them yet, but they are easy to use and you can always google them): 
     - Use the `value_counts()` method for each of these columns: 'STATION', 'NAME', 'LATITUDE', 'LONGITUDE', and 'ELEVATION'. There should only be one cateogory for each calculation because all the data come from the same station. To see what output looks like for a more diverse series, use the `value_counts()` method on 'PRCP' and 'PRCP_ATTRIBUTES'.
     - Make a DataFrame with just the columns 'STATION', 'NAME', 'LATITUDE', 'LONGITUDE', and 'ELEVATION' and use the method `drop_duplicates()` to see all the unique combinations of values in those five columns. 
     - Create a groupby object using `groupby('STATION')`, then use the `count()` method on that groupby object to count the number of values for each station.
@@ -23,7 +23,7 @@ For this assignment, we will use a file containing daily precipitation data in L
 
 #### C. Plot precipitation versus time
 
-1. Use the Matplotlib function `plot()` to plot preciptation versus date as a single line, using a single color from ColorBrewer or xkcd (via Seaborn). Save your plot as a PDF file.
+1. Use the Matplotlib function `plot()` to plot precipitation versus date as a single line, using a single color from ColorBrewer or xkcd (via Seaborn). Save your plot as a PDF file.
 2. Plot precipitation versus day of year for each year separately, with each year as a different colored line, the x-axis going from the beginning to the end of the year, and a legend indicating the year. Hint: use the 'DAY_OF_YEAR' and 'YEAR' columns you created in B3. Color using a qualitative color palette from Seaborn or ColorBrewer (via Seaborn). Save your plot as a PDF file.
 3. Create a set of subplots with a grid of 2 columns and enough rows to have one subplot per year (e.g., to show 10 years, your set of subplots would be 5 by 2). Plot precipitation versus day of year with each year as a separate subplot. Save your figure as a PDF file.
 
