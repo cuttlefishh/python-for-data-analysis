@@ -127,12 +127,12 @@ git push --set-upstream origin my-branch
 
 #### Example: Start a new repository and publish it to GitHub
 
-Available online here: https://guides.github.com/introduction/git-handbook/.
+*Available online here: https://guides.github.com/introduction/git-handbook/.*
+
+First: create the repo "my-repo" on your GitHub account.
 
 ```
-# create the repo "my-repo" on your GitHub account
-
-# create a new directory with the same name
+# create a new directory locally with the same name (my-repo)
 cd ~/git
 mkdir my-repo
 
@@ -164,7 +164,7 @@ git push -u origin master
 
 #### Example: Contribute to an existing branch on GitHub
 
-Available online here: https://guides.github.com/introduction/git-handbook/.
+*Available online here: https://guides.github.com/introduction/git-handbook/.*
 
 ```
 # assumption: a project called `repo` already exists on the machine, and a new branch 
@@ -193,7 +193,7 @@ git push
 
 #### Example: Fork an existing repository
 
-Modified from Yoshiki Vázquez-Baeza (@ElDeveloper).
+*Modified from Yoshiki Vázquez-Baeza (@ElDeveloper).*
 
 ```
 # on GitHub, go the your favorite repository, such as the repository for this course:
@@ -246,12 +246,13 @@ git push origin foo
 
 #### Additional Git commands
 
-* `git branch -d foo` deletes local branch `foo`.
-* `git push origin --delete foo` deletes remote branch `foo`.
-* `git remote -v` shows list of existing remotes with remote url after name.
+* `git diff <path>` shows all the changes to all files (or the files in `<path>`) in the current repository.
 * `git log` shows log of commits.
 * `git stash` stashes changes instead of committing them.
 * `git stash pop` re-applies the stashed changes
+* `git branch -d foo` deletes local branch `foo`.
+* `git push origin --delete foo` deletes remote branch `foo`.
+* `git remote -v` shows list of existing remotes with remote url after name.
 
 #### Managing remote repositories
 
@@ -294,10 +295,15 @@ You can add tab completion to git so you can tab out commands, branches, etc. Th
 
 The code below creates a nifty bash function `egit` that changes and colors your bash promt to show the current time, your current working directory, and which branch you are working on. Written by Yoshiki Vázquez-Baeza (@ElDeveloper).
 
-Add to your `~/.bash_profile`:
+Add the below lines to your `~/.bash_profile`. The variable `MY_PROMPT` should be set to your preferred default prompt:
 
 ```
-function egit (){
+# prompt - standard prompt including optional git coloring 
+MY_PROMPT="\[\033[1;33m\][\u@\h:\w]$\[\033[0m\] "
+PS1=$MY_PROMPT
+
+# prompt - git coloring with egit/dgit (activate/deactivate)
+function egit () {
     # git specific usage for branching
     function branch_separator () {
         #git name-rev HEAD 2> /dev/null | sed 's#HEAD\ \(.*\)#(git::\1) #'
@@ -309,26 +315,24 @@ function egit (){
     function get_git_branch () {
         git rev-parse --abbrev-ref HEAD 2> /dev/null
     }
-    export PS1="\[\033[1;32m\]\t \[\033[0m\]\W$(branch_separator)\[\e[m\]\[\e[01;38;5;196m\]$(get_git_branch)\[\e[m\]$ "
+    export PS1='\[\033[1;32m\]\t \[\033[0m\]\W$(branch_separator)\[\e[m\]\[\e[01;38;5;196m\]$(get_git_branch)\[\e[m\]$ '
 }
-function dgit (){
-    export PS1="\[\033[1;33m\][\u@\h:\w]$\[\033[0m\] "
+function dgit () {
+    export PS1=$MY_PROMPT
 }
 ```
-
-*Note: The prompt in dgit should be whichever custom prompt you already defined in your `.bash_profile`; this will make your prompt return to normal when you type `dgit`.*
  
-If you have git bash completion installed, or other bash completion scripts, you may need to add this to your `~/.bash_profile`:
-
-	for f in ~/.bash_completion.d/*;
-	do
-	    source $f;
-	done
-
-Enable/disable the git-flavored prompt on the command line:
+Enable the git-flavored prompt with `egit` and then disable (reset to default) with `dgit` on the command line:
 
 ```
 egit
 ... some git magic ...
 dgit
 ```
+
+If you have git bash completion installed, or other bash completion scripts, you may need to add this to your `~/.bash_profile`:
+
+	for f in ~/.bash_completion.d/*;
+	do
+	    source $f;
+	done
