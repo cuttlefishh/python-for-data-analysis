@@ -25,18 +25,9 @@ Course topics include:
 ## Instructor
 
 * Luke Thompson, Ph.D.
-* Lecturer at Scripps Institution of Oceanography, Assistant Professor at NOAA Northern Gulf Institute
-* Email: luke@ucsd.edu
-* Office hours by appointment
+* Assistant Research Professor, NOAA Northern Gulf Institute, Atlantic Oceanographic and Meteorological Laboratory, Miami, Florida
+* Email: [luke.thompson@noaa.gov](mailto:lukethompson@noaa.gov)
 * Pages: [GitHub](https://github.com/cuttlefishh), [Google Scholar](https://scholar.google.com/citations?user=kggNWsMAAAAJ), [NOAA profile](https://swfsc.noaa.gov/staff.aspx?id=22360)
-
-## Meetings
-
-* Course number: SIOC 209
-* Quarter: Fall 2018-19
-* Meeting time: M/W 11:00-12:20
-* First and last day of class: October 1-December 5 (20 lessons)
-* Location and door code: ask instructor
 
 ## Online Content
 
