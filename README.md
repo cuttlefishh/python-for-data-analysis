@@ -16,6 +16,7 @@ Course topics include:
 * Fundamentals of Python and its data types
 * Data analysis packages Numpy and Pandas
 * Plotting packages Matplotlib and Seaborn
+* Example of data analysis : Uber raw data analysis report
 * Statistics
 * Regular expressions
 * Interactive visualization
